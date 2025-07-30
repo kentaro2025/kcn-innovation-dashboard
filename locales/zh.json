@@ -1,0 +1,536 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "services": "服务",
+    "contact": "联系我们",
+    "careers": "招聘",
+    "getStarted": "开始合作"
+  },
+  "hero": {
+    "title": "创新软件、区块链和人工智能，打造更智能的未来",
+    "subtitle": "KNC Innovation 提供软件开发、区块链工程和人工智能领域的前沿技术解决方案，助力您的业务转型。",
+    "exploreProducts": "探索产品",
+    "getInTouch": "联系我们"
+  },
+  "stats": {
+    "yearsExperience": "年经验",
+    "productsBuilt": "产品构建",
+    "coreTechnologies": "核心技术",
+    "projectsDelivered": "项目交付"
+  },
+  "journey": {
+    "title": "我们的历程",
+    "subtitle": "从自动化工具到人工智能创新",
+    "milestones": {
+      "2018": {
+        "title": "成立与自动化",
+        "description": "构建了用于票务、博彩、游戏和电子商务购买的网站机器人和自动化工具。"
+      },
+      "2020": {
+        "title": "区块链专业化",
+        "description": "专注于区块链工程——DeFi dApps、NFT游戏和市场、Solana dApps以及智能合约审计。"
+      },
+      "2022": {
+        "title": "云基础设施",
+        "description": "提供AWS和Azure云基础设施服务以及全栈工程解决方案。"
+      },
+      "2024": {
+        "title": "AI集成",
+        "description": "扩展到AI编程，使用TensorFlow、PyTorch、YOLO等框架。"
+      },
+      "2025": {
+        "title": "交易创新",
+        "description": "专注于基于区块链的加密货币交易机器人和交易平台。"
+      }
+    }
+  },
+  "featuredProducts": {
+    "title": "精选产品",
+    "subtitle": "跨多个领域的创新解决方案",
+    "viewAll": "查看所有产品"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为现代企业提供全面的技术解决方案",
+    "blockchain": {
+      "title": "区块链工程",
+      "description": "DeFi dApps、NFT平台、智能合约和全面的区块链解决方案"
+    },
+    "ai": {
+      "title": "AI/ML解决方案",
+      "description": "TensorFlow、PyTorch、YOLO实现和定制AI驱动的应用程序"
+    },
+    "fullstack": {
+      "title": "全栈工程",
+      "description": "AWS和Azure云基础设施、全栈开发和可扩展解决方案"
+    },
+    "learnMore": "了解更多我们的服务"
+  },
+  "cta": {
+    "title": "准备好一起创新了吗？",
+    "subtitle": "让我们讨论KNC Innovation如何帮助您通过前沿技术解决方案转型您的业务。",
+    "startProject": "开始项目",
+    "learnAbout": "了解我们"
+  },
+  "about_page": {
+    "hero": {
+      "title": "构建技术的未来",
+      "subtitle": "自2018年以来，我们一直处于技术创新的前沿，在软件开发、区块链工程和人工智能领域提供前沿解决方案。"
+    },
+    "mission_vision": {
+      "mission": {
+        "title": "我们的使命",
+        "description": "通过创新的技术解决方案赋能企业和个人，解决现实世界的问题。我们努力让先进技术对各行各业的客户都变得可访问、实用和具有变革性。"
+      },
+      "vision": {
+        "title": "我们的愿景",
+        "description": "成为寻求利用软件、区块链和AI力量的企业的领先技术合作伙伴。我们设想一个技术与人类需求无缝集成的未来，创造前所未有的价值和机遇。"
+      }
+    },
+    "values": {
+      "title": "我们的价值观",
+      "subtitle": "指导我们一切行动的原则",
+      "items": [
+        {
+          "title": "创新优先",
+          "description": "我们不断推动技术可能性的边界，保持在行业趋势和新兴解决方案的前沿。"
+        },
+        {
+          "title": "客户成功",
+          "description": "客户的成功就是我们的成功。我们建立长期合作伙伴关系，提供推动真正商业价值的解决方案。"
+        },
+        {
+          "title": "卓越品质",
+          "description": "我们在所做的一切中都保持最高标准，从代码质量到客户服务和项目交付。"
+        }
+      ]
+    },
+    "leadership": {
+      "title": "领导团队",
+      "subtitle": "认识KNC Innovation背后的远见者",
+      "members": [
+        {
+          "name": "Kentaro Namba",
+          "role": "首席执行官",
+          "bio": "富有远见的领导者，在技术创新和商业战略方面拥有丰富经验。自2018年成立以来，Kentaro一直致力于新兴技术和市场扩张，推动KNC Innovation的增长。",
+          "expertise": ["战略规划", "业务发展", "技术愿景", "团队领导"]
+        },
+        {
+          "name": "Chanthai Sihabouth",
+          "role": "首席技术官",
+          "bio": "技术架构师和工程领导者，在区块链、人工智能和云技术方面拥有深厚的专业知识。Chanthai负责所有技术开发，并确保我们的解决方案达到最高标准。",
+          "expertise": ["区块链开发", "AI/ML工程", "云架构", "技术领导"]
+        }
+      ]
+    },
+    "timeline": {
+      "title": "我们的历程",
+      "subtitle": "七年的创新与成长",
+      "milestones": [
+        {
+          "year": "2018",
+          "title": "公司成立",
+          "description": "KNC Innovation成立，专注于自动化和机器人开发",
+          "achievements": ["首批自动化工具发布", "建立初始客户群"]
+        },
+        {
+          "year": "2020",
+          "title": "区块链扩张",
+          "description": "转向区块链技术和DeFi解决方案",
+          "achievements": ["DeFi dApps开发", "NFT市场创建", "智能合约审计服务"]
+        },
+        {
+          "year": "2022",
+          "title": "云基础设施",
+          "description": "将全面的云服务添加到我们的产品组合中",
+          "achievements": ["AWS和Azure合作", "全栈工程团队扩张", "获得企业客户"]
+        },
+        {
+          "year": "2024",
+          "title": "AI集成",
+          "description": "集成AI和机器学习能力",
+          "achievements": ["TensorFlow和PyTorch实施", "AI驱动产品发布", "机器学习咨询服务"]
+        },
+        {
+          "year": "2025",
+          "title": "交易创新",
+          "description": "专注于先进的交易平台和自动化",
+          "achievements": ["加密货币交易机器人开发", "先进交易算法", "平台集成"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "加入我们的创新之旅",
+      "subtitle": "无论您是在寻找前沿解决方案，还是想成为我们团队的一员，我们都期待您的来信。",
+      "button1": "开始对话",
+      "button2": "查看职位"
+    }
+  },
+  "products_page": {
+    "hero": {
+      "title": "我们的产品展示",
+      "subtitle": "探索我们在AI/ML、区块链、Web平台和通信技术领域的全面创新软件解决方案组合。"
+    },
+    "products": [
+      {
+        "name": "LoveConnect",
+        "description": "具有先进匹配算法和实时消息功能的现代约会应用",
+        "category": "移动应用",
+        "features": ["AI驱动匹配", "实时聊天", "视频通话", "个人资料验证"]
+      },
+      {
+        "name": "AI Movie Generator",
+        "description": "用于创建电影和视频内容并具有自动编辑和效果的AI工具",
+        "category": "AI/ML",
+        "features": ["AI视频生成", "自动编辑", "自定义效果", "脚本分析"]
+      },
+      {
+        "name": "CleverChat",
+        "description": "基于GPT的智能客服聊天机器人，具有自然语言处理功能",
+        "category": "AI/ML",
+        "features": ["自然语言处理", "多语言支持", "集成API", "分析仪表板"]
+      },
+      {
+        "name": "ModernShop",
+        "description": "功能齐全的电子商务平台，具有现代UI和全面的管理工具",
+        "category": "Web平台",
+        "features": ["产品管理", "支付处理", "库存跟踪", "分析"]
+      },
+      {
+        "name": "BasisTradingBot",
+        "description": "具有先进策略和风险管理的自动化加密货币交易机器人",
+        "category": "区块链",
+        "features": ["自动交易", "风险管理", "多交易所支持", "策略回测"]
+      },
+      {
+        "name": "OnMeet",
+        "description": "具有屏幕共享和录制功能的在线会议和视频会议平台",
+        "category": "通信",
+        "features": ["高清视频通话", "屏幕共享", "会议录制", "聊天集成"]
+      },
+      {
+        "name": "PokerCorePlugins",
+        "description": "具有锦标赛管理和分析功能的高级扑克平台插件",
+        "category": "游戏",
+        "features": ["锦标赛管理", "玩家分析", "自定义游戏模式", "实时更新"]
+      },
+      {
+        "name": "SolSniper",
+        "description": "用于NFT铸造和交易的Solana狙击机器人，具有高级监控功能",
+        "category": "区块链",
+        "features": ["NFT狙击", "实时监控", "自动出价", "投资组合跟踪"]
+      },
+      {
+        "name": "MicroSIP",
+        "description": "具有高清音频和呼叫管理的轻量级VoIP软电话系统",
+        "category": "通信",
+        "features": ["高清音频通话", "呼叫管理", "联系人集成", "多账户支持"]
+      },
+      {
+        "name": "WowsaMeet",
+        "description": "具有广播功能的视频和音频流会议平台",
+        "category": "通信",
+        "features": ["直播", "会议主持", "广播", "互动功能"]
+      }
+    ],
+    "stats": {
+      "products": "已构建产品",
+      "categories": "类别",
+      "technologies": "技术",
+      "openSource": "开源"
+    },
+    "cta": {
+      "title": "需要定制解决方案吗？",
+      "subtitle": "我们的产品展示了我们的能力，但我们专注于根据您的特定需求和要求构建定制解决方案。",
+      "button1": "讨论您的项目",
+      "button2": "查看我们的服务"
+    }
+  },
+  "services_page": {
+    "hero": {
+      "title": "全面的技术解决方案",
+      "subtitle": "从区块链工程到AI实施，我们提供端到端的技术解决方案，推动创新和业务增长。"
+    },
+    "services": [
+      {
+        "title": "区块链工程",
+        "description": "从智能合约到完整dApp开发的全面区块链解决方案",
+        "features": [
+          "DeFi dApp开发",
+          "NFT游戏和市场",
+          "Solana dApp创建",
+          "智能合约开发",
+          "智能合约审计",
+          "代币经济学设计",
+          "跨链解决方案",
+          "区块链咨询"
+        ],
+        "projects": ["DeFi交易平台", "NFT市场", "游戏代币经济", "跨链桥"],
+        "color": "blue"
+      },
+      {
+        "title": "AI/ML解决方案",
+        "description": "先进的人工智能和机器学习实施",
+        "features": [
+          "定制AI模型开发",
+          "计算机视觉解决方案",
+          "自然语言处理",
+          "预测分析",
+          "AI驱动的自动化",
+          "机器学习咨询",
+          "模型训练和优化",
+          "AI集成服务"
+        ],
+        "projects": ["AI电影生成器", "CleverChat GPT机器人", "计算机视觉系统", "预测交易模型"],
+        "color": "purple"
+      },
+      {
+        "title": "全栈和云工程",
+        "description": "可扩展的Web应用程序和云基础设施解决方案",
+        "features": [
+          "全栈Web开发",
+          "云架构设计",
+          "AWS和Azure实施",
+          "微服务架构",
+          "API开发和集成",
+          "数据库设计和优化",
+          "DevOps和CI/CD管道",
+          "性能优化"
+        ],
+        "projects": ["ModernShop电子商务", "OnMeet视频平台", "云迁移项目", "企业API网关"],
+        "color": "green"
+      },
+      {
+        "title": "智能合约审计",
+        "description": "全面的安全审计和漏洞评估",
+        "features": [
+          "安全漏洞评估",
+          "代码审查和分析",
+          "Gas优化",
+          "合规性验证",
+          "渗透测试",
+          "风险评估报告",
+          "修复指导",
+          "持续安全监控"
+        ],
+        "projects": ["DeFi协议审计", "NFT合约审查", "DAO治理审计", "代币合约分析"],
+        "color": "red"
+      },
+      {
+        "title": "交易机器人和平台",
+        "description": "自动化交易解决方案和平台开发",
+        "features": [
+          "加密货币交易机器人开发",
+          "算法交易策略",
+          "投资组合管理系统",
+          "风险管理工具",
+          "市场数据集成",
+          "回测框架",
+          "交易所API集成",
+          "交易平台开发"
+        ],
+        "projects": ["BasisTradingBot", "SolSniper NFT机器人", "多交易所套利", "投资组合分析仪表板"],
+        "color": "yellow"
+      }
+    ],
+    "process": {
+      "title": "我们的开发流程",
+      "subtitle": "确保项目成功交付的成熟方法论",
+      "steps": [
+        { "title": "发现与规划", "description": "我们分析您的需求，定义项目范围，并创建详细的路线图。" },
+        { "title": "设计与架构", "description": "我们的团队设计系统架构并创建技术规范。" },
+        { "title": "开发与测试", "description": "我们采用最佳实践构建您的解决方案，并进行持续测试和质量保证。" },
+        { "title": "部署与支持", "description": "我们部署您的解决方案并提供持续的支持和维护。" }
+      ]
+    },
+    "why_choose_us": {
+      "title": "为什么选择KNC Innovation？",
+      "subtitle": "是什么让我们在技术领域脱颖而出",
+      "reasons": [
+        { "title": "7年以上经验", "description": "自2018年以来在多个技术领域拥有可靠的往绩记录" },
+        { "title": "全栈专业知识", "description": "从前端到区块链和AI集成的端到端解决方案" },
+        { "title": "质量保证", "description": "对我们所有的交付成果进行严格的测试和安全审计" },
+        { "title": "持续支持", "description": "为我们所有的解决方案提供持续的维护和支持" }
+      ]
+    },
+    "cta": {
+      "title": "准备好开始您的项目了吗？",
+      "subtitle": "让我们讨论我们的专业知识如何帮助您实现技术愿景。联系我们进行免费咨询和项目评估。",
+      "button1": "获取免费咨询",
+      "button2": "查看我们的工作"
+    }
+  },
+  "contact_page": {
+    "hero": {
+      "title": "让我们一起创造非凡",
+      "subtitle": "准备好将您的想法变为现实了吗？联系我们讨论您的项目，了解KNC Innovation如何帮助您实现技术目标。"
+    },
+    "form": {
+      "title": "给我们留言",
+      "subtitle": "填写下面的表格，我们将在24小时内回复您。",
+      "name": "全名",
+      "name_placeholder": "张三",
+      "email": "电子邮箱",
+      "email_placeholder": "zhangsan@example.com",
+      "company": "公司",
+      "company_placeholder": "您的公司",
+      "service": "所需服务",
+      "service_placeholder": "选择一项服务",
+      "budget": "项目预算",
+      "budget_placeholder": "选择预算范围",
+      "message": "项目详情",
+      "message_placeholder": "告诉我们您的项目、需求、时间表以及您希望我们使用的任何特定技术...",
+      "button_send": "发送消息",
+      "button_sending": "发送中...",
+      "alert_success": "感谢您的留言！我们将在24小时内回复您。"
+    },
+    "info": {
+      "title": "联系信息",
+      "subtitle": "联系我们团队的多种方式",
+      "items": [
+        { "title": "电子邮箱", "value": "info@kncinnovation.com", "description": "随时给我们发送电子邮件" },
+        { "title": "电话", "value": "+1 (201) 555-0123", "description": "在工作时间致电我们" },
+        { "title": "地点", "value": "新泽西州小渡口", "description": "远程优先，在东海岸设有办事处" },
+        {
+          "title": "工作时间",
+          "value": "周一至周五上午9点至下午6点（东部标准时间）",
+          "description": "我们会在24小时内回复"
+        }
+      ]
+    },
+    "social": {
+      "title": "关注我们",
+      "subtitle": "了解我们最新项目的动态"
+    },
+    "immediate_help": {
+      "title": "需要立即帮助？",
+      "description": "如有紧急查询或快速提问，请直接联系：",
+      "button": "直接给我们发邮件"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "常见问题的快速解答",
+      "items": [
+        {
+          "question": "你们典型的项目时间表是怎样的？",
+          "answer": "项目时间表因复杂性而异。简单的应用程序需要4-8周，而复杂的区块链或AI解决方案可能需要3-6个月。我们会在初次咨询时提供详细的时间表。"
+        },
+        {
+          "question": "你们与初创公司合作吗？",
+          "answer": "我们热爱与初创公司合作，并有灵活的合作模式。我们可以采用股权安排、分阶段开发或以MVP为中心的方法，以适应您的预算和时间表。"
+        },
+        {
+          "question": "你们擅长哪些技术？",
+          "answer": "我们擅长区块链（Solidity、Rust、Solana）、AI/ML（TensorFlow、PyTorch）、全栈开发（React、Node.js、Python）和云基础设施（AWS、Azure）。请查看我们的服务页面以获取完整列表。"
+        },
+        {
+          "question": "你们提供持续支持吗？",
+          "answer": "是的，我们提供全面的支持和维护套餐。这包括根据您的需求进行错误修复、安全更新、性能优化和功能增强。"
+        }
+      ]
+    }
+  },
+  "careers_page": {
+    "hero": {
+      "title": "与KNC Innovation共创未来",
+      "subtitle": "加入一个充满激情的创新者团队，致力于前沿的区块链、AI和全栈解决方案。我们一直在寻找与我们共享技术卓越愿景的人才。"
+    },
+    "why_work_with_us": {
+      "title": "为什么选择我们？",
+      "subtitle": "这不仅仅是一份工作，更是一份创新的事业",
+      "benefits": [
+        { "title": "远程优先文化", "description": "在世界任何地方工作，享受灵活的工作时间和异步协作" },
+        { "title": "前沿项目", "description": "参与创新的区块链、AI和全栈项目，挑战极限" },
+        { "title": "学习与成长", "description": "持续的学习机会、会议参与和技能发展" },
+        { "title": "工作与生活平衡", "description": "灵活的时间表、无限带薪休假，注重结果而非工作时长" }
+      ]
+    },
+    "values": {
+      "title": "我们的价值观",
+      "subtitle": "指导我们工作和文化的原则",
+      "items": [
+        { "title": "创新第一", "description": "我们不断探索新技术，挑战可能性的极限" },
+        { "title": "卓越品质", "description": "我们在代码质量、安全性和用户体验方面保持最高标准" },
+        { "title": "协作精神", "description": "我们相信开放沟通、知识共享和团队成功" },
+        { "title": "客户影响力", "description": "我们专注于为客户提供真正的价值和变革性解决方案" }
+      ]
+    },
+    "open_roles": {
+      "title": "空缺职位",
+      "subtitle": "当前加入我们团队的机会",
+      "button_apply": "立即申请",
+      "roles": [
+        {
+          "title": "高级区块链开发人员",
+          "type": "全职",
+          "location": "远程",
+          "description": "领导区块链开发项目、智能合约架构和DeFi解决方案",
+          "requirements": ["5年以上区块链经验", "精通Solidity", "了解DeFi协议", "智能合约安全"],
+          "skills": ["Solidity", "Web3.js", "Hardhat", "DeFi", "智能合约"]
+        },
+        {
+          "title": "AI/ML工程师",
+          "type": "全职",
+          "location": "远程",
+          "description": "开发和部署机器学习模型、计算机视觉系统和AI驱动的应用程序",
+          "requirements": ["3年以上ML经验", "精通Python", "深度学习框架", "模型部署"],
+          "skills": ["Python", "TensorFlow", "PyTorch", "计算机视觉", "自然语言处理"]
+        },
+        {
+          "title": "全栈开发人员",
+          "type": "全职",
+          "location": "远程",
+          "description": "构建可扩展的Web应用程序、API和云基础设施解决方案",
+          "requirements": ["4年以上全栈经验", "React/Node.js", "云平台", "数据库设计"],
+          "skills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+        },
+        {
+          "title": "DevOps工程师",
+          "type": "合同",
+          "location": "远程",
+          "description": "管理云基础设施、CI/CD管道和部署自动化",
+          "requirements": ["3年以上DevOps经验", "AWS/Azure", "Docker/Kubernetes", "基础设施即代码"],
+          "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
+        }
+      ]
+    },
+    "application_process": {
+      "title": "申请流程",
+      "subtitle": "简单透明的招聘流程",
+      "steps": [
+        { "title": "申请", "description": "发送您的简历和求职信至您感兴趣的职位" },
+        { "title": "筛选", "description": "初步电话/视频通话，讨论您的背景和职位" },
+        { "title": "技术面试", "description": "与职位相关的技术面试和/或编程挑战" },
+        { "title": "最终面试", "description": "与团队会面，讨论文化契合度、薪酬和后续步骤" }
+      ]
+    },
+    "cta": {
+      "title": "没有找到合适的职位？",
+      "subtitle": "我们一直在寻找杰出的人才。如果您对创新充满热情，并希望使用前沿技术，我们期待您的来信。",
+      "button1": "发送您的简历",
+      "button2": "联系我们"
+    }
+  },
+  "common": {
+    "readMore": "阅读更多",
+    "learnMore": "了解更多",
+    "getStarted": "开始",
+    "contactUs": "联系我们",
+    "viewAll": "查看全部",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "success": "成功",
+    "code": "代码",
+    "demo": "演示",
+    "docs": "文档",
+    "expertise": "专业领域：",
+    "key_features": "主要特点：",
+    "technologies": "技术栈：",
+    "key_services": "核心服务：",
+    "recent_projects": "近期项目",
+    "requirements": "要求：",
+    "key_skills": "关键技能："
+  }
+}

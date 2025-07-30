@@ -1,115 +1,41 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Users, Target, Eye, Heart } from "lucide-react";
-import Link from "next/link";
+"use client"
 
-const teamMembers = [
-  {
-    name: "Kentaro Namba",
-    role: "Chief Executive Officer",
-    bio: "Visionary leader with extensive experience in technology innovation and business strategy. Kentaro has been driving KNC Innovation's growth since its founding in 2018, focusing on emerging technologies and market expansion.",
-    expertise: [
-      "Strategic Planning",
-      "Business Development",
-      "Technology Vision",
-      "Team Leadership",
-    ],
-  },
-  {
-    name: "Chanthai Sihabouth",
-    role: "Chief Technology Officer",
-    bio: "Technical architect and engineering leader with deep expertise across blockchain, AI, and cloud technologies. Chanthai oversees all technical development and ensures our solutions meet the highest standards.",
-    expertise: [
-      "Blockchain Development",
-      "AI/ML Engineering",
-      "Cloud Architecture",
-      "Technical Leadership",
-    ],
-  },
-];
+import type React from "react"
 
-const companyValues = [
-  {
-    icon: Target,
-    title: "Innovation First",
-    description:
-      "We constantly push the boundaries of what's possible with technology, staying ahead of industry trends and emerging solutions.",
-  },
-  {
-    icon: Users,
-    title: "Client Success",
-    description:
-      "Our clients' success is our success. We build long-term partnerships and deliver solutions that drive real business value.",
-  },
-  {
-    icon: Heart,
-    title: "Quality Excellence",
-    description:
-      "We maintain the highest standards in everything we do, from code quality to customer service and project delivery.",
-  },
-];
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Users, Target, Eye, Heart } from "lucide-react"
+import Link from "next/link"
+import { useLocale } from "@/lib/i18n"
 
-const milestones = [
-  {
-    year: "2018",
-    title: "Company Founded",
-    description:
-      "KNC Innovation established with focus on automation and bot development",
-    achievements: [
-      "First automation tools launched",
-      "Initial client base established",
-    ],
-  },
-  {
-    year: "2020",
-    title: "Blockchain Expansion",
-    description: "Pivoted to blockchain technology and DeFi solutions",
-    achievements: [
-      "DeFi dApps development",
-      "NFT marketplace creation",
-      "Smart contract auditing services",
-    ],
-  },
-  {
-    year: "2022",
-    title: "Cloud Infrastructure",
-    description: "Added comprehensive cloud services to our portfolio",
-    achievements: [
-      "AWS & Azure partnerships",
-      "Full-stack engineering team expansion",
-      "Enterprise client acquisition",
-    ],
-  },
-  {
-    year: "2024",
-    title: "AI Integration",
-    description: "Integrated AI and machine learning capabilities",
-    achievements: [
-      "TensorFlow & PyTorch implementations",
-      "AI-powered product launches",
-      "ML consulting services",
-    ],
-  },
-  {
-    year: "2025",
-    title: "Trading Innovation",
-    description: "Focus on advanced trading platforms and automation",
-    achievements: [
-      "Crypto trading bot development",
-      "Advanced trading algorithms",
-      "Platform integrations",
-    ],
-  },
-];
+const valueIcons: { [key: string]: React.ElementType } = {
+  "Innovation First": Target,
+  "Client Success": Users,
+  "Quality Excellence": Heart,
+  创新优先: Target,
+  客户成功: Users,
+  卓越品质: Heart,
+  イノベーション第一: Target,
+  クライアントの成功: Users,
+  品質の卓越性: Heart,
+}
 
 export default function AboutPage() {
+  const { t, isLoading } = useLocale()
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-lg animate-pulse">{t("common.loading")}</div>
+      </div>
+    )
+  }
+
+  const teamMembers = t("about_page.leadership.members", [])
+  const companyValues = t("about_page.values.items", [])
+  const milestones = t("about_page.timeline.milestones", [])
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -117,12 +43,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Building the Future of Technology
+              {t("about_page.hero.title")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Since 2018, we've been at the forefront of technological
-              innovation, delivering cutting-edge solutions in software
-              development, blockchain engineering, and artificial intelligence.
+              {t("about_page.hero.subtitle")}
             </p>
           </div>
         </div>
@@ -137,14 +61,11 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-4">
                   <Target className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                 </div>
-                <CardTitle className="text-2xl">Our Mission</CardTitle>
+                <CardTitle className="text-2xl">{t("about_page.mission_vision.mission.title")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed">
-                  To empower businesses and individuals with innovative
-                  technology solutions that solve real-world problems. We strive
-                  to make advanced technologies accessible, practical, and
-                  transformative for our clients across all industries.
+                  {t("about_page.mission_vision.mission.description")}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -154,14 +75,11 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-4">
                   <Eye className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                 </div>
-                <CardTitle className="text-2xl">Our Vision</CardTitle>
+                <CardTitle className="text-2xl">{t("about_page.mission_vision.vision.title")}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed">
-                  To be the leading technology partner for businesses seeking to
-                  leverage the power of software, blockchain, and AI. We
-                  envision a future where technology seamlessly integrates with
-                  human needs to create unprecedented value and opportunities.
+                  {t("about_page.mission_vision.vision.description")}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -174,29 +92,28 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Our Values
+              {t("about_page.values.title")}
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              The principles that guide everything we do
-            </p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">{t("about_page.values.subtitle")}</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {companyValues.map((value, index) => (
-              <Card key={index} className="text-center p-6">
-                <CardHeader>
-                  <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <value.icon className="h-8 w-8 text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <CardTitle className="text-xl">{value.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base">
-                    {value.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
+            {companyValues.map((value: any, index: number) => {
+              const Icon = valueIcons[value.title] || Heart
+              return (
+                <Card key={index} className="text-center p-6">
+                  <CardHeader>
+                    <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Icon className="h-8 w-8 text-blue-600 dark:text-blue-400" />
+                    </div>
+                    <CardTitle className="text-xl">{value.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-base">{value.description}</CardDescription>
+                  </CardContent>
+                </Card>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -206,15 +123,13 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Leadership Team
+              {t("about_page.leadership.title")}
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              Meet the visionaries behind KNC Innovation
-            </p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">{t("about_page.leadership.subtitle")}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {teamMembers.map((member, index) => (
+            {teamMembers.map((member: any, index: number) => (
               <Card key={index} className="p-6">
                 <CardHeader>
                   <div className="flex items-center gap-4">
@@ -222,7 +137,7 @@ export default function AboutPage() {
                       <span className="text-white font-bold text-xl">
                         {member.name
                           .split(" ")
-                          .map((n) => n[0])
+                          .map((n: string) => n[0])
                           .join("")}
                       </span>
                     </div>
@@ -235,15 +150,11 @@ export default function AboutPage() {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                    {member.bio}
-                  </p>
+                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{member.bio}</p>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                      Expertise:
-                    </h4>
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">{t("common.expertise")}</h4>
                     <div className="flex flex-wrap gap-2">
-                      {member.expertise.map((skill, skillIndex) => (
+                      {member.expertise.map((skill: string, skillIndex: number) => (
                         <Badge key={skillIndex} variant="secondary">
                           {skill}
                         </Badge>
@@ -262,15 +173,13 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Our Journey
+              {t("about_page.timeline.title")}
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              Seven years of innovation and growth
-            </p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">{t("about_page.timeline.subtitle")}</p>
           </div>
 
           <div className="space-y-8">
-            {milestones.map((milestone, index) => (
+            {milestones.map((milestone: any, index: number) => (
               <Card key={index} className="p-6">
                 <CardHeader>
                   <div className="flex items-center gap-4 mb-4">
@@ -279,25 +188,16 @@ export default function AboutPage() {
                     </Badge>
                     <CardTitle className="text-xl">{milestone.title}</CardTitle>
                   </div>
-                  <CardDescription className="text-base">
-                    {milestone.description}
-                  </CardDescription>
+                  <CardDescription className="text-base">{milestone.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid md:grid-cols-3 gap-4">
-                    {milestone.achievements.map(
-                      (achievement, achievementIndex) => (
-                        <div
-                          key={achievementIndex}
-                          className="flex items-center gap-2"
-                        >
-                          <div className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full"></div>
-                          <span className="text-sm text-gray-600 dark:text-gray-300">
-                            {achievement}
-                          </span>
-                        </div>
-                      )
-                    )}
+                    {milestone.achievements.map((achievement: string, achievementIndex: number) => (
+                      <div key={achievementIndex} className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full"></div>
+                        <span className="text-sm text-gray-600 dark:text-gray-300">{achievement}</span>
+                      </div>
+                    ))}
                   </div>
                 </CardContent>
               </Card>
@@ -309,16 +209,11 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 bg-blue-600 dark:bg-blue-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Join Our Innovation Journey
-          </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Whether you're looking for cutting-edge solutions or want to be part
-            of our team, we'd love to hear from you.
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t("about_page.cta.title")}</h2>
+          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">{t("about_page.cta.subtitle")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary">
-              <Link href="/contact">Start a Conversation</Link>
+              <Link href="/contact">{t("about_page.cta.button1")}</Link>
             </Button>
             <Button
               asChild
@@ -326,11 +221,11 @@ export default function AboutPage() {
               variant="outline"
               className="text-white border-white hover:bg-white hover:text-blue-600 bg-transparent"
             >
-              <Link href="/careers">View Careers</Link>
+              <Link href="/careers">{t("about_page.cta.button2")}</Link>
             </Button>
           </div>
         </div>
       </section>
     </div>
-  );
+  )
 }

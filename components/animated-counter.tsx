@@ -35,15 +35,19 @@ export function AnimatedCounter({ end, duration = 2000, suffix = "", prefix = ""
 
       animationFrame = requestAnimationFrame(animate)
 
-      return () => cancelAnimationFrame(animationFrame)
+      return () => {
+        if (animationFrame) {
+          cancelAnimationFrame(animationFrame)
+        }
+      }
     }
   }, [inView, end, duration])
 
   return (
-    <span ref={ref} className="text-3xl font-bold text-blue-600 dark:text-blue-400">
+    <div ref={ref} className="text-3xl font-bold text-blue-600 dark:text-blue-400">
       {prefix}
       {count}
       {suffix}
-    </span>
+    </div>
   )
 }

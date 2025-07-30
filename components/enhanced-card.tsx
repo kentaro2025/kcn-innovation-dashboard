@@ -1,79 +1,56 @@
+"use client"
+
 import type React from "react"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { cn } from "@/lib/utils"
 import type { LucideIcon } from "lucide-react"
+import { cn } from "@/lib/utils"
 
 interface EnhancedCardProps {
   title: string
-  description?: string
+  description: string
   icon?: LucideIcon
-  iconColor?: string
-  gradient?: string
-  children?: React.ReactNode
-  className?: string
-  hover?: boolean
   badge?: string
+  gradient?: string
+  hover?: boolean
+  className?: string
+  children?: React.ReactNode
 }
 
 export function EnhancedCard({
   title,
   description,
   icon: Icon,
-  iconColor = "text-blue-600 dark:text-blue-400",
-  gradient = "from-blue-500 to-purple-600",
-  children,
-  className,
-  hover = true,
   badge,
+  gradient = "from-blue-500 to-purple-600",
+  hover = false,
+  className,
+  children,
 }: EnhancedCardProps) {
   return (
     <Card
       className={cn(
-        "relative overflow-hidden border-0 shadow-lg transition-all duration-300",
-        hover && "hover:shadow-xl hover:-translate-y-1",
-        "bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm",
+        "bg-white dark:bg-gray-800 shadow-lg border-0",
+        hover && "hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
         className,
       )}
     >
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-blue-50/30 dark:to-blue-900/10" />
-
-      <CardHeader className="relative">
-        <div className="flex items-center justify-between mb-4">
-          {Icon && (
-            <div
-              className={cn(
-                "w-12 h-12 rounded-xl flex items-center justify-center",
-                "bg-gradient-to-br shadow-lg",
-                `bg-gradient-to-br ${gradient}`,
-              )}
-            >
-              <Icon className="h-6 w-6 text-white" />
-            </div>
-          )}
-          {badge && (
-            <Badge variant="outline" className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm">
-              {badge}
-            </Badge>
-          )}
-        </div>
-        <CardTitle
-          className={cn(
-            "text-xl font-semibold",
-            hover && "group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors",
-          )}
-        >
-          {title}
-        </CardTitle>
-        {description && (
-          <CardDescription className="text-base leading-relaxed text-gray-600 dark:text-gray-300">
-            {description}
-          </CardDescription>
+      <CardHeader>
+        {badge && (
+          <Badge variant="outline" className="w-fit mb-2">
+            {badge}
+          </Badge>
         )}
+        {Icon && (
+          <div className={`w-12 h-12 bg-gradient-to-br ${gradient} rounded-lg flex items-center justify-center mb-4`}>
+            <Icon className="h-6 w-6 text-white" />
+          </div>
+        )}
+        <CardTitle className="text-xl">{title}</CardTitle>
+        <CardDescription className="text-base leading-relaxed">{description}</CardDescription>
       </CardHeader>
-
-      {children && <CardContent className="relative">{children}</CardContent>}
+      {children && <CardContent>{children}</CardContent>}
     </Card>
   )
 }

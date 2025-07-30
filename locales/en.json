@@ -1,0 +1,605 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact",
+    "careers": "Careers",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Innovating Software, Blockchain, and AI for a Smarter Future",
+    "subtitle": "KNC Innovation delivers cutting-edge technology solutions across software development, blockchain engineering, and artificial intelligence to transform your business.",
+    "exploreProducts": "Explore Products",
+    "getInTouch": "Get In Touch"
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "productsBuilt": "Products Built",
+    "coreTechnologies": "Core Technologies",
+    "projectsDelivered": "Projects Delivered"
+  },
+  "journey": {
+    "title": "Our Journey",
+    "subtitle": "From automation tools to AI innovation",
+    "milestones": {
+      "2018": {
+        "title": "Foundation & Automation",
+        "description": "Built website bots and automation tools for ticketing, betting, gaming, and eCommerce purchasing."
+      },
+      "2020": {
+        "title": "Blockchain Specialization",
+        "description": "Specialized in blockchain engineering — DeFi dApps, NFT games and marketplaces, Solana dApps, and smart contract audits."
+      },
+      "2022": {
+        "title": "Cloud Infrastructure",
+        "description": "Offered AWS & Azure cloud infrastructure services with full-stack engineering solutions."
+      },
+      "2024": {
+        "title": "AI Integration",
+        "description": "Expanded into AI programming with frameworks like TensorFlow, PyTorch, YOLO, and more."
+      },
+      "2025": {
+        "title": "Trading Innovation",
+        "description": "Focused on blockchain-based crypto trading bots and trading platforms."
+      }
+    }
+  },
+  "featuredProducts": {
+    "title": "Featured Products",
+    "subtitle": "Innovative solutions across multiple domains",
+    "viewAll": "View All Products"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive technology solutions for modern businesses",
+    "blockchain": {
+      "title": "Blockchain Engineering",
+      "description": "DeFi dApps, NFT platforms, smart contracts, and comprehensive blockchain solutions"
+    },
+    "ai": {
+      "title": "AI/ML Solutions",
+      "description": "TensorFlow, PyTorch, YOLO implementations and custom AI-powered applications"
+    },
+    "fullstack": {
+      "title": "Full Stack Engineering",
+      "description": "AWS & Azure cloud infrastructure, full-stack development, and scalable solutions"
+    },
+    "learnMore": "Learn More About Our Services"
+  },
+  "cta": {
+    "title": "Ready to Innovate Together?",
+    "subtitle": "Let's discuss how KNC Innovation can help transform your business with cutting-edge technology solutions.",
+    "startProject": "Start a Project",
+    "learnAbout": "Learn About Us"
+  },
+  "about_page": {
+    "hero": {
+      "title": "Building the Future of Technology",
+      "subtitle": "Since 2018, we've been at the forefront of technological innovation, delivering cutting-edge solutions in software development, blockchain engineering, and artificial intelligence."
+    },
+    "mission_vision": {
+      "mission": {
+        "title": "Our Mission",
+        "description": "To empower businesses and individuals with innovative technology solutions that solve real-world problems. We strive to make advanced technologies accessible, practical, and transformative for our clients across all industries."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the leading technology partner for businesses seeking to leverage the power of software, blockchain, and AI. We envision a future where technology seamlessly integrates with human needs to create unprecedented value and opportunities."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "items": [
+        {
+          "title": "Innovation First",
+          "description": "We constantly push the boundaries of what's possible with technology, staying ahead of industry trends and emerging solutions."
+        },
+        {
+          "title": "Client Success",
+          "description": "Our clients' success is our success. We build long-term partnerships and deliver solutions that drive real business value."
+        },
+        {
+          "title": "Quality Excellence",
+          "description": "We maintain the highest standards in everything we do, from code quality to customer service and project delivery."
+        }
+      ]
+    },
+    "leadership": {
+      "title": "Leadership Team",
+      "subtitle": "Meet the visionaries behind KNC Innovation",
+      "members": [
+        {
+          "name": "Kentaro Namba",
+          "role": "Chief Executive Officer",
+          "bio": "Visionary leader with extensive experience in technology innovation and business strategy. Kentaro has been driving KNC Innovation's growth since its founding in 2018, focusing on emerging technologies and market expansion.",
+          "expertise": ["Strategic Planning", "Business Development", "Technology Vision", "Team Leadership"]
+        },
+        {
+          "name": "Chanthai Sihabouth",
+          "role": "Chief Technology Officer",
+          "bio": "Technical architect and engineering leader with deep expertise across blockchain, AI, and cloud technologies. Chanthai oversees all technical development and ensures our solutions meet the highest standards.",
+          "expertise": ["Blockchain Development", "AI/ML Engineering", "Cloud Architecture", "Technical Leadership"]
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Seven years of innovation and growth",
+      "milestones": [
+        {
+          "year": "2018",
+          "title": "Company Founded",
+          "description": "KNC Innovation established with focus on automation and bot development",
+          "achievements": ["First automation tools launched", "Initial client base established"]
+        },
+        {
+          "year": "2020",
+          "title": "Blockchain Expansion",
+          "description": "Pivoted to blockchain technology and DeFi solutions",
+          "achievements": ["DeFi dApps development", "NFT marketplace creation", "Smart contract auditing services"]
+        },
+        {
+          "year": "2022",
+          "title": "Cloud Infrastructure",
+          "description": "Added comprehensive cloud services to our portfolio",
+          "achievements": [
+            "AWS & Azure partnerships",
+            "Full-stack engineering team expansion",
+            "Enterprise client acquisition"
+          ]
+        },
+        {
+          "year": "2024",
+          "title": "AI Integration",
+          "description": "Integrated AI and machine learning capabilities",
+          "achievements": [
+            "TensorFlow & PyTorch implementations",
+            "AI-powered product launches",
+            "ML consulting services"
+          ]
+        },
+        {
+          "year": "2025",
+          "title": "Trading Innovation",
+          "description": "Focus on advanced trading platforms and automation",
+          "achievements": ["Crypto trading bot development", "Advanced trading algorithms", "Platform integrations"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Join Our Innovation Journey",
+      "subtitle": "Whether you're looking for cutting-edge solutions or want to be part of our team, we'd love to hear from you.",
+      "button1": "Start a Conversation",
+      "button2": "View Careers"
+    }
+  },
+  "products_page": {
+    "hero": {
+      "title": "Our Product Showcase",
+      "subtitle": "Explore our comprehensive portfolio of innovative software solutions across AI/ML, blockchain, web platforms, and communication technologies."
+    },
+    "products": [
+      {
+        "name": "LoveConnect",
+        "description": "Modern dating app with advanced matching algorithms and real-time messaging features",
+        "category": "Mobile App",
+        "features": ["AI-powered matching", "Real-time chat", "Video calls", "Profile verification"]
+      },
+      {
+        "name": "AI Movie Generator",
+        "description": "AI-powered tool for creating movies and video content with automated editing and effects",
+        "category": "AI/ML",
+        "features": ["AI video generation", "Automated editing", "Custom effects", "Script analysis"]
+      },
+      {
+        "name": "CleverChat",
+        "description": "GPT-based smart chatbot for customer service with natural language processing",
+        "category": "AI/ML",
+        "features": ["Natural language processing", "Multi-language support", "Integration APIs", "Analytics dashboard"]
+      },
+      {
+        "name": "ModernShop",
+        "description": "Full-featured eCommerce platform with modern UI and comprehensive management tools",
+        "category": "Web Platform",
+        "features": ["Product management", "Payment processing", "Inventory tracking", "Analytics"]
+      },
+      {
+        "name": "BasisTradingBot",
+        "description": "Automated crypto trading bot with advanced strategies and risk management",
+        "category": "Blockchain",
+        "features": ["Automated trading", "Risk management", "Multiple exchanges", "Strategy backtesting"]
+      },
+      {
+        "name": "OnMeet",
+        "description": "Online meeting and video conferencing platform with screen sharing and recording",
+        "category": "Communication",
+        "features": ["HD video calls", "Screen sharing", "Meeting recording", "Chat integration"]
+      },
+      {
+        "name": "PokerCorePlugins",
+        "description": "Advanced poker platform plugins with tournament management and analytics",
+        "category": "Gaming",
+        "features": ["Tournament management", "Player analytics", "Custom game modes", "Real-time updates"]
+      },
+      {
+        "name": "SolSniper",
+        "description": "Solana sniper bot for NFT minting and trading with advanced monitoring",
+        "category": "Blockchain",
+        "features": ["NFT sniping", "Real-time monitoring", "Auto-bidding", "Portfolio tracking"]
+      },
+      {
+        "name": "MicroSIP",
+        "description": "Lightweight VoIP softphone system with HD audio and call management",
+        "category": "Communication",
+        "features": ["HD audio calls", "Call management", "Contact integration", "Multi-account support"]
+      },
+      {
+        "name": "WowsaMeet",
+        "description": "Video and audio streaming conference platform with broadcasting capabilities",
+        "category": "Communication",
+        "features": ["Live streaming", "Conference hosting", "Broadcasting", "Interactive features"]
+      }
+    ],
+    "stats": {
+      "products": "Products Built",
+      "categories": "Categories",
+      "technologies": "Technologies",
+      "openSource": "Open Source"
+    },
+    "cta": {
+      "title": "Need a Custom Solution?",
+      "subtitle": "Our products showcase our capabilities, but we specialize in building custom solutions tailored to your specific needs and requirements.",
+      "button1": "Discuss Your Project",
+      "button2": "View Our Services"
+    }
+  },
+  "services_page": {
+    "hero": {
+      "title": "Comprehensive Technology Solutions",
+      "subtitle": "From blockchain engineering to AI implementation, we provide end-to-end technology solutions that drive innovation and business growth."
+    },
+    "services": [
+      {
+        "title": "Blockchain Engineering",
+        "description": "Comprehensive blockchain solutions from smart contracts to full dApp development",
+        "features": [
+          "DeFi dApp Development",
+          "NFT Games & Marketplaces",
+          "Solana dApp Creation",
+          "Smart Contract Development",
+          "Smart Contract Auditing",
+          "Tokenomics Design",
+          "Cross-chain Solutions",
+          "Blockchain Consulting"
+        ],
+        "projects": ["DeFi Trading Platform", "NFT Marketplace", "Gaming Token Economy", "Cross-chain Bridge"],
+        "color": "blue"
+      },
+      {
+        "title": "AI/ML Solutions",
+        "description": "Advanced artificial intelligence and machine learning implementations",
+        "features": [
+          "Custom AI Model Development",
+          "Computer Vision Solutions",
+          "Natural Language Processing",
+          "Predictive Analytics",
+          "AI-Powered Automation",
+          "Machine Learning Consulting",
+          "Model Training & Optimization",
+          "AI Integration Services"
+        ],
+        "projects": ["AI Movie Generator", "CleverChat GPT Bot", "Computer Vision System", "Predictive Trading Models"],
+        "color": "purple"
+      },
+      {
+        "title": "Full Stack & Cloud Engineering",
+        "description": "Scalable web applications and cloud infrastructure solutions",
+        "features": [
+          "Full Stack Web Development",
+          "Cloud Architecture Design",
+          "AWS & Azure Implementation",
+          "Microservices Architecture",
+          "API Development & Integration",
+          "Database Design & Optimization",
+          "DevOps & CI/CD Pipelines",
+          "Performance Optimization"
+        ],
+        "projects": [
+          "ModernShop eCommerce",
+          "OnMeet Video Platform",
+          "Cloud Migration Project",
+          "Enterprise API Gateway"
+        ],
+        "color": "green"
+      },
+      {
+        "title": "Smart Contract Audits",
+        "description": "Comprehensive security audits and vulnerability assessments",
+        "features": [
+          "Security Vulnerability Assessment",
+          "Code Review & Analysis",
+          "Gas Optimization",
+          "Compliance Verification",
+          "Penetration Testing",
+          "Risk Assessment Reports",
+          "Remediation Guidance",
+          "Ongoing Security Monitoring"
+        ],
+        "projects": ["DeFi Protocol Audit", "NFT Contract Review", "DAO Governance Audit", "Token Contract Analysis"],
+        "color": "red"
+      },
+      {
+        "title": "Trading Bots & Platforms",
+        "description": "Automated trading solutions and platform development",
+        "features": [
+          "Crypto Trading Bot Development",
+          "Algorithmic Trading Strategies",
+          "Portfolio Management Systems",
+          "Risk Management Tools",
+          "Market Data Integration",
+          "Backtesting Frameworks",
+          "Exchange API Integration",
+          "Trading Platform Development"
+        ],
+        "projects": [
+          "BasisTradingBot",
+          "SolSniper NFT Bot",
+          "Multi-Exchange Arbitrage",
+          "Portfolio Analytics Dashboard"
+        ],
+        "color": "yellow"
+      }
+    ],
+    "process": {
+      "title": "Our Development Process",
+      "subtitle": "A proven methodology that ensures successful project delivery",
+      "steps": [
+        {
+          "title": "Discovery & Planning",
+          "description": "We analyze your requirements, define project scope, and create a detailed roadmap."
+        },
+        {
+          "title": "Design & Architecture",
+          "description": "Our team designs the system architecture and creates technical specifications."
+        },
+        {
+          "title": "Development & Testing",
+          "description": "We build your solution using best practices with continuous testing and quality assurance."
+        },
+        {
+          "title": "Deployment & Support",
+          "description": "We deploy your solution and provide ongoing support and maintenance."
+        }
+      ]
+    },
+    "why_choose_us": {
+      "title": "Why Choose KNC Innovation?",
+      "subtitle": "What sets us apart in the technology landscape",
+      "reasons": [
+        {
+          "title": "7+ Years Experience",
+          "description": "Proven track record since 2018 across multiple technology domains"
+        },
+        {
+          "title": "Full-Stack Expertise",
+          "description": "End-to-end solutions from frontend to blockchain and AI integration"
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Rigorous testing and security audits for all our deliverables"
+        },
+        { "title": "Ongoing Support", "description": "Continuous maintenance and support for all our solutions" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Let's discuss how our expertise can help bring your technology vision to life. Contact us for a free consultation and project assessment.",
+      "button1": "Get Free Consultation",
+      "button2": "View Our Work"
+    }
+  },
+  "contact_page": {
+    "hero": {
+      "title": "Let's Build Something Amazing Together",
+      "subtitle": "Ready to transform your ideas into reality? Contact us to discuss your project and discover how KNC Innovation can help you achieve your technology goals."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+      "name": "Full Name",
+      "name_placeholder": "John Doe",
+      "email": "Email Address",
+      "email_placeholder": "john@example.com",
+      "company": "Company",
+      "company_placeholder": "Your Company",
+      "service": "Service Needed",
+      "service_placeholder": "Select a service",
+      "budget": "Project Budget",
+      "budget_placeholder": "Select budget range",
+      "message": "Project Details",
+      "message_placeholder": "Tell us about your project, requirements, timeline, and any specific technologies you'd like us to use...",
+      "button_send": "Send Message",
+      "button_sending": "Sending Message...",
+      "alert_success": "Thank you for your message! We'll get back to you within 24 hours."
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Multiple ways to reach our team",
+      "items": [
+        { "title": "Email", "value": "info@kncinnovation.com", "description": "Send us an email anytime" },
+        { "title": "Phone", "value": "+1 (201) 555-0123", "description": "Call us during business hours" },
+        { "title": "Location", "value": "Little Ferry, NJ", "description": "Remote-first with East Coast presence" },
+        { "title": "Business Hours", "value": "Mon-Fri 9AM-6PM EST", "description": "We respond within 24 hours" }
+      ]
+    },
+    "social": {
+      "title": "Follow Us",
+      "subtitle": "Stay updated with our latest projects"
+    },
+    "immediate_help": {
+      "title": "Need Immediate Help?",
+      "description": "For urgent inquiries or quick questions, reach out directly:",
+      "button": "Email Us Directly"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers to common questions",
+      "items": [
+        {
+          "question": "What's your typical project timeline?",
+          "answer": "Project timelines vary based on complexity. Simple applications take 4-8 weeks, while complex blockchain or AI solutions may take 3-6 months. We provide detailed timelines during our initial consultation."
+        },
+        {
+          "question": "Do you work with startups?",
+          "answer": "We love working with startups and have flexible engagement models. We can work with equity arrangements, phased development, or MVP-focused approaches to fit your budget and timeline."
+        },
+        {
+          "question": "What technologies do you specialize in?",
+          "answer": "We specialize in blockchain (Solidity, Rust, Solana), AI/ML (TensorFlow, PyTorch), full-stack development (React, Node.js, Python), and cloud infrastructure (AWS, Azure). Check our services page for the complete list."
+        },
+        {
+          "question": "Do you provide ongoing support?",
+          "answer": "Yes, we offer comprehensive support and maintenance packages. This includes bug fixes, security updates, performance optimization, and feature enhancements based on your needs."
+        }
+      ]
+    }
+  },
+  "careers_page": {
+    "hero": {
+      "title": "Build the Future with KNC Innovation",
+      "subtitle": "Join a team of passionate innovators working on cutting-edge blockchain, AI, and full-stack solutions. We're always looking for talented individuals who share our vision for technological excellence."
+    },
+    "why_work_with_us": {
+      "title": "Why Work With Us?",
+      "subtitle": "More than just a job - it's a career in innovation",
+      "benefits": [
+        {
+          "title": "Remote-First Culture",
+          "description": "Work from anywhere in the world with flexible hours and async collaboration"
+        },
+        {
+          "title": "Cutting-Edge Projects",
+          "description": "Work on innovative blockchain, AI, and full-stack projects that push boundaries"
+        },
+        {
+          "title": "Learning & Growth",
+          "description": "Continuous learning opportunities, conference attendance, and skill development"
+        },
+        {
+          "title": "Work-Life Balance",
+          "description": "Flexible schedules, unlimited PTO, and focus on results over hours"
+        }
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide our work and culture",
+      "items": [
+        {
+          "title": "Innovation First",
+          "description": "We constantly explore new technologies and push the boundaries of what's possible"
+        },
+        {
+          "title": "Quality Excellence",
+          "description": "We maintain the highest standards in code quality, security, and user experience"
+        },
+        {
+          "title": "Collaborative Spirit",
+          "description": "We believe in open communication, knowledge sharing, and team success"
+        },
+        {
+          "title": "Client Impact",
+          "description": "We focus on delivering real value and transformative solutions for our clients"
+        }
+      ]
+    },
+    "open_roles": {
+      "title": "Open Positions",
+      "subtitle": "Current opportunities to join our team",
+      "button_apply": "Apply Now",
+      "roles": [
+        {
+          "title": "Senior Blockchain Developer",
+          "type": "Full-time",
+          "location": "Remote",
+          "description": "Lead blockchain development projects, smart contract architecture, and DeFi solutions",
+          "requirements": [
+            "5+ years blockchain experience",
+            "Solidity expertise",
+            "DeFi protocol knowledge",
+            "Smart contract security"
+          ],
+          "skills": ["Solidity", "Web3.js", "Hardhat", "DeFi", "Smart Contracts"]
+        },
+        {
+          "title": "AI/ML Engineer",
+          "type": "Full-time",
+          "location": "Remote",
+          "description": "Develop and deploy machine learning models, computer vision systems, and AI-powered applications",
+          "requirements": [
+            "3+ years ML experience",
+            "Python expertise",
+            "Deep learning frameworks",
+            "Model deployment"
+          ],
+          "skills": ["Python", "TensorFlow", "PyTorch", "Computer Vision", "NLP"]
+        },
+        {
+          "title": "Full Stack Developer",
+          "type": "Full-time",
+          "location": "Remote",
+          "description": "Build scalable web applications, APIs, and cloud infrastructure solutions",
+          "requirements": ["4+ years full-stack experience", "React/Node.js", "Cloud platforms", "Database design"],
+          "skills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+        },
+        {
+          "title": "DevOps Engineer",
+          "type": "Contract",
+          "location": "Remote",
+          "description": "Manage cloud infrastructure, CI/CD pipelines, and deployment automation",
+          "requirements": ["3+ years DevOps experience", "AWS/Azure", "Docker/Kubernetes", "Infrastructure as Code"],
+          "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
+        }
+      ]
+    },
+    "application_process": {
+      "title": "Application Process",
+      "subtitle": "Simple and transparent hiring process",
+      "steps": [
+        { "title": "Apply", "description": "Send your resume and cover letter for the position you're interested in" },
+        { "title": "Screen", "description": "Initial phone/video call to discuss your background and the role" },
+        { "title": "Technical", "description": "Technical interview and/or coding challenge relevant to the position" },
+        { "title": "Final", "description": "Meet the team and discuss culture fit, compensation, and next steps" }
+      ]
+    },
+    "cta": {
+      "title": "Don't See the Perfect Role?",
+      "subtitle": "We're always looking for exceptional talent. If you're passionate about innovation and want to work with cutting-edge technologies, we'd love to hear from you.",
+      "button1": "Send Us Your Resume",
+      "button2": "Get In Touch"
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "success": "Success",
+    "code": "Code",
+    "demo": "Demo",
+    "docs": "Docs",
+    "expertise": "Expertise:",
+    "key_features": "Key Features:",
+    "technologies": "Technologies:",
+    "key_services": "Key Services:",
+    "recent_projects": "Recent Projects",
+    "requirements": "Requirements:",
+    "key_skills": "Key Skills:"
+  }
+}

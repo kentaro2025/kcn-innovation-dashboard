@@ -1,88 +1,52 @@
-"use client";
+"use client"
 
-import type React from "react";
-
-import { useState } from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Clock,
-  Send,
-  Github,
-  Linkedin,
-  Twitter,
-} from "lucide-react";
-import Link from "next/link";
-
-const contactInfo = [
-  {
-    icon: Mail,
-    title: "Email",
-    value: "info@kncinnovation.com",
-    description: "Send us an email anytime",
-  },
-  {
-    icon: Phone,
-    title: "Phone",
-    value: "+1 (201) 555-0123",
-    description: "Call us during business hours",
-  },
-  {
-    icon: MapPin,
-    title: "Location",
-    value: "Little Ferry, NJ",
-    description: "Remote-first with East Coast presence",
-  },
-  {
-    icon: Clock,
-    title: "Business Hours",
-    value: "Mon-Fri 9AM-6PM EST",
-    description: "We respond within 24 hours",
-  },
-];
+import type React from "react"
+import { useState } from "react"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { Label } from "@/components/ui/label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Mail, Phone, MapPin, Clock, Send, Github, Linkedin, Twitter } from "lucide-react"
+import Link from "next/link"
+import { useLocale } from "@/lib/i18n"
 
 const socialLinks = [
   {
     icon: Github,
     name: "GitHub",
     url: "https://github.com/kncinnovation",
-    color:
-      "text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white",
+    color: "text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white",
   },
   {
     icon: Linkedin,
     name: "LinkedIn",
     url: "https://linkedin.com/company/kncinnovation",
-    color:
-      "text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300",
+    color: "text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300",
   },
   {
     icon: Twitter,
     name: "Twitter",
     url: "https://twitter.com/kncinnovation",
-    color:
-      "text-blue-400 hover:text-blue-500 dark:text-blue-300 dark:hover:text-blue-200",
+    color: "text-blue-400 hover:text-blue-500 dark:text-blue-300 dark:hover:text-blue-200",
   },
-];
+]
+
+const infoIcons: { [key: string]: React.ElementType } = {
+  Email: Mail,
+  Phone: Phone,
+  Location: MapPin,
+  "Business Hours": Clock,
+  电子邮箱: Mail,
+  电话: Phone,
+  地点: MapPin,
+  工作时间: Clock,
+  メール: Mail,
+  電話: Phone,
+  場所: MapPin,
+  営業時間: Clock,
+}
 
 const serviceTypes = [
   "Blockchain Engineering",
@@ -93,9 +57,19 @@ const serviceTypes = [
   "Cloud Infrastructure",
   "Consulting",
   "Other",
-];
+]
+
+const budgetOptions = [
+  { value: "under-10k", label: "Under $10,000" },
+  { value: "10k-25k", label: "$10,000 - $25,000" },
+  { value: "25k-50k", label: "$25,000 - $50,000" },
+  { value: "50k-100k", label: "$50,000 - $100,000" },
+  { value: "over-100k", label: "Over $100,000" },
+  { value: "discuss", label: "Let's discuss" },
+]
 
 export default function ContactPage() {
+  const { t, isLoading } = useLocale()
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -103,34 +77,32 @@ export default function ContactPage() {
     service: "",
     budget: "",
     message: "",
-  });
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-lg animate-pulse">{t("common.loading")}</div>
+      </div>
+    )
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      company: "",
-      service: "",
-      budget: "",
-      message: "",
-    });
-
-    setIsSubmitting(false);
-    alert("Thank you for your message! We'll get back to you within 24 hours.");
-  };
+    e.preventDefault()
+    setIsSubmitting(true)
+    await new Promise((resolve) => setTimeout(resolve, 2000))
+    setFormData({ name: "", email: "", company: "", service: "", budget: "", message: "" })
+    setIsSubmitting(false)
+    alert(t("contact_page.form.alert_success"))
+  }
 
   const handleInputChange = (field: string, value: string) => {
-    setFormData((prev) => ({ ...prev, [field]: value }));
-  };
+    setFormData((prev) => ({ ...prev, [field]: value }))
+  }
+
+  const contactInfo = t("contact_page.info.items", [])
+  const faqItems = t("contact_page.faq.items", [])
 
   return (
     <div className="min-h-screen">
@@ -139,12 +111,10 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Let's Build Something Amazing Together
+              {t("contact_page.hero.title")}
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Ready to transform your ideas into reality? Contact us to discuss
-              your project and discover how KNC Innovation can help you achieve
-              your technology goals.
+              {t("contact_page.hero.subtitle")}
             </p>
           </div>
         </div>
@@ -158,37 +128,30 @@ export default function ContactPage() {
             <div className="lg:col-span-2">
               <Card className="border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle className="text-2xl">Send Us a Message</CardTitle>
-                  <CardDescription>
-                    Fill out the form below and we'll get back to you within 24
-                    hours.
-                  </CardDescription>
+                  <CardTitle className="text-2xl">{t("contact_page.form.title")}</CardTitle>
+                  <CardDescription>{t("contact_page.form.subtitle")}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-2">
-                        <Label htmlFor="name">Full Name *</Label>
+                        <Label htmlFor="name">{t("contact_page.form.name")} *</Label>
                         <Input
                           id="name"
                           value={formData.name}
-                          onChange={(e) =>
-                            handleInputChange("name", e.target.value)
-                          }
-                          placeholder="John Doe"
+                          onChange={(e) => handleInputChange("name", e.target.value)}
+                          placeholder={t("contact_page.form.name_placeholder")}
                           required
                         />
                       </div>
                       <div className="space-y-2">
-                        <Label htmlFor="email">Email Address *</Label>
+                        <Label htmlFor="email">{t("contact_page.form.email")} *</Label>
                         <Input
                           id="email"
                           type="email"
                           value={formData.email}
-                          onChange={(e) =>
-                            handleInputChange("email", e.target.value)
-                          }
-                          placeholder="john@example.com"
+                          onChange={(e) => handleInputChange("email", e.target.value)}
+                          placeholder={t("contact_page.form.email_placeholder")}
                           required
                         />
                       </div>
@@ -196,26 +159,19 @@ export default function ContactPage() {
 
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-2">
-                        <Label htmlFor="company">Company</Label>
+                        <Label htmlFor="company">{t("contact_page.form.company")}</Label>
                         <Input
                           id="company"
                           value={formData.company}
-                          onChange={(e) =>
-                            handleInputChange("company", e.target.value)
-                          }
-                          placeholder="Your Company"
+                          onChange={(e) => handleInputChange("company", e.target.value)}
+                          placeholder={t("contact_page.form.company_placeholder")}
                         />
                       </div>
                       <div className="space-y-2">
-                        <Label htmlFor="service">Service Needed</Label>
-                        <Select
-                          value={formData.service}
-                          onValueChange={(value) =>
-                            handleInputChange("service", value)
-                          }
-                        >
+                        <Label htmlFor="service">{t("contact_page.form.service")}</Label>
+                        <Select value={formData.service} onValueChange={(value) => handleInputChange("service", value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Select a service" />
+                            <SelectValue placeholder={t("contact_page.form.service_placeholder")} />
                           </SelectTrigger>
                           <SelectContent>
                             {serviceTypes.map((service) => (
@@ -229,66 +185,43 @@ export default function ContactPage() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="budget">Project Budget</Label>
-                      <Select
-                        value={formData.budget}
-                        onValueChange={(value) =>
-                          handleInputChange("budget", value)
-                        }
-                      >
+                      <Label htmlFor="budget">{t("contact_page.form.budget")}</Label>
+                      <Select value={formData.budget} onValueChange={(value) => handleInputChange("budget", value)}>
                         <SelectTrigger>
-                          <SelectValue placeholder="Select budget range" />
+                          <SelectValue placeholder={t("contact_page.form.budget_placeholder")} />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="under-10k">
-                            Under $10,000
-                          </SelectItem>
-                          <SelectItem value="10k-25k">
-                            $10,000 - $25,000
-                          </SelectItem>
-                          <SelectItem value="25k-50k">
-                            $25,000 - $50,000
-                          </SelectItem>
-                          <SelectItem value="50k-100k">
-                            $50,000 - $100,000
-                          </SelectItem>
-                          <SelectItem value="over-100k">
-                            Over $100,000
-                          </SelectItem>
-                          <SelectItem value="discuss">Let's discuss</SelectItem>
+                          {budgetOptions.map((opt) => (
+                            <SelectItem key={opt.value} value={opt.value}>
+                              {opt.label}
+                            </SelectItem>
+                          ))}
                         </SelectContent>
                       </Select>
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="message">Project Details *</Label>
+                      <Label htmlFor="message">{t("contact_page.form.message")} *</Label>
                       <Textarea
                         id="message"
                         value={formData.message}
-                        onChange={(e) =>
-                          handleInputChange("message", e.target.value)
-                        }
-                        placeholder="Tell us about your project, requirements, timeline, and any specific technologies you'd like us to use..."
+                        onChange={(e) => handleInputChange("message", e.target.value)}
+                        placeholder={t("contact_page.form.message_placeholder")}
                         rows={6}
                         required
                       />
                     </div>
 
-                    <Button
-                      type="submit"
-                      size="lg"
-                      className="w-full"
-                      disabled={isSubmitting}
-                    >
+                    <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
                       {isSubmitting ? (
                         <>
                           <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                          Sending Message...
+                          {t("contact_page.form.button_sending")}
                         </>
                       ) : (
                         <>
                           <Send className="h-4 w-4 mr-2" />
-                          Send Message
+                          {t("contact_page.form.button_send")}
                         </>
                       )}
                     </Button>
@@ -301,50 +234,39 @@ export default function ContactPage() {
             <div className="space-y-8">
               <Card className="border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle className="text-xl">Contact Information</CardTitle>
-                  <CardDescription>
-                    Multiple ways to reach our team
-                  </CardDescription>
+                  <CardTitle className="text-xl">{t("contact_page.info.title")}</CardTitle>
+                  <CardDescription>{t("contact_page.info.subtitle")}</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  {contactInfo.map((info, index) => (
-                    <div key={index} className="flex items-start gap-4">
-                      <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <info.icon className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+                  {contactInfo.map((info: any, index: number) => {
+                    const Icon = infoIcons[info.title] || Mail
+                    return (
+                      <div key={index} className="flex items-start gap-4">
+                        <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <Icon className="h-5 w-5 text-blue-600 dark:text-blue-400" />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold text-gray-900 dark:text-white">{info.title}</h3>
+                          <p className="text-gray-900 dark:text-white font-medium">{info.value}</p>
+                          <p className="text-sm text-gray-600 dark:text-gray-300">{info.description}</p>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="font-semibold text-gray-900 dark:text-white">
-                          {info.title}
-                        </h3>
-                        <p className="text-gray-900 dark:text-white font-medium">
-                          {info.value}
-                        </p>
-                        <p className="text-sm text-gray-600 dark:text-gray-300">
-                          {info.description}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
+                    )
+                  })}
                 </CardContent>
               </Card>
 
               {/* Social Links */}
               <Card className="border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle className="text-xl">Follow Us</CardTitle>
-                  <CardDescription>
-                    Stay updated with our latest projects
-                  </CardDescription>
+                  <CardTitle className="text-xl">{t("contact_page.social.title")}</CardTitle>
+                  <CardDescription>{t("contact_page.social.subtitle")}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex gap-4">
                     {socialLinks.map((social, index) => (
                       <Button key={index} variant="outline" size="sm" asChild>
-                        <Link
-                          href={social.url}
-                          target="_blank"
-                          className={social.color}
-                        >
+                        <Link href={social.url} target="_blank" className={social.color}>
                           <social.icon className="h-4 w-4 mr-2" />
                           {social.name}
                         </Link>
@@ -358,17 +280,17 @@ export default function ContactPage() {
               <Card className="border-0 shadow-xl bg-blue-50 dark:bg-blue-900/20">
                 <CardHeader>
                   <CardTitle className="text-xl text-blue-900 dark:text-blue-100">
-                    Need Immediate Help?
+                    {t("contact_page.immediate_help.title")}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-blue-800 dark:text-blue-200 mb-4">
-                    For urgent inquiries or quick questions, reach out directly:
+                    {t("contact_page.immediate_help.description")}
                   </p>
                   <Button asChild className="w-full">
                     <Link href="mailto:info@kncinnovation.com">
                       <Mail className="h-4 w-4 mr-2" />
-                      Email Us Directly
+                      {t("contact_page.immediate_help.button")}
                     </Link>
                   </Button>
                 </CardContent>
@@ -383,79 +305,25 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Frequently Asked Questions
+              {t("contact_page.faq.title")}
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              Quick answers to common questions
-            </p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">{t("contact_page.faq.subtitle")}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">
-                  What's your typical project timeline?
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Project timelines vary based on complexity. Simple
-                  applications take 4-8 weeks, while complex blockchain or AI
-                  solutions may take 3-6 months. We provide detailed timelines
-                  during our initial consultation.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">
-                  Do you work with startups?
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  We love working with startups and have flexible engagement
-                  models. We can work with equity arrangements, phased
-                  development, or MVP-focused approaches to fit your budget and
-                  timeline.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">
-                  What technologies do you specialize in?
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  We specialize in blockchain (Solidity, Rust, Solana), AI/ML
-                  (TensorFlow, PyTorch), full-stack development (React, Node.js,
-                  Python), and cloud infrastructure (AWS, Azure). Check our
-                  services page for the complete list.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">
-                  Do you provide ongoing support?
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Yes, we offer comprehensive support and maintenance packages.
-                  This includes bug fixes, security updates, performance
-                  optimization, and feature enhancements based on your needs.
-                </CardDescription>
-              </CardContent>
-            </Card>
+            {faqItems.map((faq: any, index: number) => (
+              <Card key={index}>
+                <CardHeader>
+                  <CardTitle className="text-lg">{faq.question}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription>{faq.answer}</CardDescription>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
     </div>
-  );
+  )
 }

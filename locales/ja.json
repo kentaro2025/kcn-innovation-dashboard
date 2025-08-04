@@ -94,14 +94,17 @@
       "subtitle": "私たちのすべての行動を導く原則",
       "items": [
         {
+          "id": "innovation",
           "title": "イノベーション第一",
           "description": "私たちは常に技術の可能性の境界を押し広げ、業界のトレンドと新興ソリューションの最前線に立っています。"
         },
         {
+          "id": "client-success",
           "title": "クライアントの成功",
           "description": "クライアントの成功が私たちの成功です。私たちは長期的なパートナーシップを構築し、真のビジネス価値を推進するソリューションを提供します。"
         },
         {
+          "id": "quality",
           "title": "品質の卓越性",
           "description": "私たちは、コード品質からカスタマーサービス、プロジェクト納品まで、すべてにおいて最高水準を維持しています。"
         }
@@ -112,16 +115,65 @@
       "subtitle": "KNC Innovationの背後にいるビジョナリーたち",
       "members": [
         {
-          "name": "難波 健太郎",
+          "name": "氷室 京介",
           "role": "最高経営責任者",
-          "bio": "技術革新と事業戦略に豊富な経験を持つビジョナリーリーダー。2018年の設立以来、新興技術と市場拡大に焦点を当て、KNC Innovationの成長を牽引してきました。",
-          "expertise": ["戦略計画", "事業開発", "技術ビジョン", "チームリーダーシップ"]
+          "image": "/profile1.png?height=64&width=64",
+          "bio": "技術革新と事業戦略に豊富な経験を持つビジョナリーリーダー。氷室は2018年の設立以来、新興技術と市場拡大に焦点を当て、KNC Innovationの成長を牽引してきました。",
+          "expertise": [
+            "戦略計画",
+            "事業開発",
+            "技術ビジョン",
+            "チームリーダーシップ"
+          ]
         },
         {
-          "name": "チャンタイ・シハブース",
+          "name": "チャンタイ・シヴォンサ",
+
           "role": "最高技術責任者",
+          "image": "/profile2.png?height=64&width=64",
           "bio": "ブロックチェーン、AI、クラウド技術に深い専門知識を持つ技術アーキテクト兼エンジニアリングリーダー。すべての技術開発を監督し、ソリューションが最高水準を満たすことを保証します。",
-          "expertise": ["ブロックチェーン開発", "AI/MLエンジニアリング", "クラウドアーキテクチャ", "技術リーダーシップ"]
+          "expertise": [
+            "ブロックチェーン開発",
+            "AI/MLエンジニアリング",
+            "クラウドアーキテクチャ",
+            "技術リーダーシップ"
+          ]
+        },
+        {
+          "name": "アレクサンダー・モロー",
+          "role": "副社長",
+          "image": "/profile3.png?height=64&width=64",
+          "bio": "市場での存在感を拡大し、主要なパートナーシップを育成してきた実績のある、戦略的で結果重視の副社長。イザベルは当社のグローバルオペレーションと企業戦略を率いています。",
+          "expertise": [
+            "グローバルオペレーション",
+            "市場拡大",
+            "企業戦略",
+            "パートナーシップ開発"
+          ]
+        },
+        {
+          "name": "田中 佑希",
+          "role": "アジアマーケター",
+          "image": "/profile4.png?height=64&width=64",
+          "bio": "アジアの技術分野を専門とするダイナミックなマーケティング専門家。佑希は、地域全体の多様なオーディエンスに響く革新的なマーケティングキャンペーンを開発・実行します。",
+          "expertise": [
+            "デジタルマーケティング",
+            "ブランド戦略",
+            "市場調査",
+            "コンテンツ作成"
+          ]
+        },
+        {
+          "name": "李 偉",
+          "role": "リード開発者",
+          "image": "/profile5.png?height=64&width=64",
+          "bio": "堅牢でスケーラブルなソフトウェアソリューションの構築に情熱を注ぐ経験豊富なリード開発者。李偉は、コンセプトから展開まで高品質な製品を作成する開発チームを指導します。",
+          "expertise": [
+            "ソフトウェアアーキテクチャ",
+            "フルスタック開発",
+            "アジャイル方法論",
+            "チームメンターシップ"
+          ]
         }
       ]
     },
@@ -139,7 +191,11 @@
           "year": "2020",
           "title": "ブロックチェーンへの拡大",
           "description": "ブロックチェーン技術とDeFiソリューションに軸足を移す",
-          "achievements": ["DeFi dApps開発", "NFTマーケットプレイス作成", "スマートコントラクト監査サービス"]
+          "achievements": [
+            "DeFi dApps開発",
+            "NFTマーケットプレイス作成",
+            "スマートコントラクト監査サービス"
+          ]
         },
         {
           "year": "2022",
@@ -155,13 +211,21 @@
           "year": "2024",
           "title": "AI統合",
           "description": "AIと機械学習の機能を統合",
-          "achievements": ["TensorFlow & PyTorch実装", "AI搭載製品のローンチ", "MLコンサルティングサービス"]
+          "achievements": [
+            "TensorFlow & PyTorch実装",
+            "AI搭載製品のローンチ",
+            "MLコンサルティングサービス"
+          ]
         },
         {
           "year": "2025",
           "title": "トレーディングイノベーション",
           "description": "高度な取引プラットフォームと自動化に焦点",
-          "achievements": ["暗号通貨取引ボット開発", "高度な取引アルゴリズム", "プラットフォーム統合"]
+          "achievements": [
+            "暗号通貨取引ボット開発",
+            "高度な取引アルゴリズム",
+            "プラットフォーム統合"
+          ]
         }
       ]
     },
@@ -179,64 +243,114 @@
     },
     "products": [
       {
+        "id": "loveconnect",
         "name": "LoveConnect",
         "description": "高度なマッチングアルゴリズムとリアルタイムメッセージング機能を備えた現代的なデーティングアプリ",
         "category": "モバイルアプリ",
-        "features": ["AI搭載マッチング", "リアルタイムチャット", "ビデオ通話", "プロフィール認証"]
+        "features": [
+          "AI搭載マッチング",
+          "リアルタイムチャット",
+          "ビデオ通話",
+          "プロフィール認証"
+        ]
       },
       {
+        "id": "ai-movie-generator",
         "name": "AI Movie Generator",
         "description": "自動編集とエフェクトを備えた映画やビデオコンテンツを作成するためのAI搭載ツール",
         "category": "AI/ML",
-        "features": ["AIビデオ生成", "自動編集", "カスタムエフェクト", "スクリプト分析"]
+        "features": [
+          "AIビデオ生成",
+          "自動編集",
+          "カスタムエフェクト",
+          "スクリプト分析"
+        ]
       },
       {
+        "id": "cleverchat",
         "name": "CleverChat",
         "description": "自然言語処理を備えたGPTベースのスマートカスタマーサービスチャットボット",
         "category": "AI/ML",
-        "features": ["自然言語処理", "多言語対応", "統合API", "分析ダッシュボード"]
+        "features": [
+          "自然言語処理",
+          "多言語対応",
+          "統合API",
+          "分析ダッシュボード"
+        ]
       },
       {
+        "id": "modernshop",
         "name": "ModernShop",
         "description": "現代的なUIと包括的な管理ツールを備えたフル機能のeコマースプラットフォーム",
         "category": "Webプラットフォーム",
         "features": ["製品管理", "支払い処理", "在庫追跡", "分析"]
       },
       {
+        "id": "basistradingbot",
         "name": "BasisTradingBot",
         "description": "高度な戦略とリスク管理を備えた自動暗号通貨取引ボット",
         "category": "ブロックチェーン",
-        "features": ["自動取引", "リスク管理", "複数取引所対応", "戦略バックテスト"]
+        "features": [
+          "自動取引",
+          "リスク管理",
+          "複数取引所対応",
+          "戦略バックテスト"
+        ]
       },
       {
+        "id": "onmeet",
         "name": "OnMeet",
         "description": "画面共有と録画機能を備えたオンライン会議およびビデオ会議プラットフォーム",
         "category": "コミュニケーション",
         "features": ["HDビデオ通話", "画面共有", "会議録画", "チャット統合"]
       },
       {
+        "id": "pokercoreplugins",
         "name": "PokerCorePlugins",
         "description": "トーナメント管理と分析機能を備えた高度なポーカープラットフォームプラグイン",
         "category": "ゲーミング",
-        "features": ["トーナメント管理", "プレイヤー分析", "カスタムゲームモード", "リアルタイム更新"]
+        "features": [
+          "トーナメント管理",
+          "プレイヤー分析",
+          "カスタムゲームモード",
+          "リアルタイム更新"
+        ]
       },
       {
+        "id": "solsniper",
         "name": "SolSniper",
         "description": "高度な監視機能を備えたNFTミンティングおよびトレーディング用のSolanaスナイパーボット",
         "category": "ブロックチェーン",
-        "features": ["NFTスナイピング", "リアルタイム監視", "自動入札", "ポートフォリオ追跡"]
+        "features": [
+          "NFTスナイピング",
+          "リアルタイム監視",
+          "自動入札",
+          "ポートフォリオ追跡"
+        ]
       },
       {
+        "id": "microsip",
         "name": "MicroSIP",
         "description": "HDオーディオと通話管理を備えた軽量VoIPソフトフォンシステム",
         "category": "コミュニケーション",
-        "features": ["HDオーディオ通話", "通話管理", "連絡先統合", "マルチアカウント対応"]
+        "features": [
+          "HDオーディオ通話",
+          "通話管理",
+          "連絡先統合",
+          "マルチアカウント対応"
+        ]
       },
       {
+        "id": "wowsameet",
         "name": "WowsaMeet",
         "description": "放送機能を備えたビデオおよびオーディオストリーミング会議プラットフォーム",
         "category": "コミュニケーション",
-        "features": ["ライブストリーミング", "会議ホスティング", "放送", "インタラクティブ機能"]
+        "features": [
+          "ライブストリーミング",
+          "会議ホスティング",
+          "放送",
+          "インタラクティブ機能"
+        ]
       }
     ],
     "stats": {
@@ -259,6 +373,7 @@
     },
     "services": [
       {
+        "id": "blockchain-engineering",
         "title": "ブロックチェーンエンジニアリング",
         "description": "スマートコントラクトから完全なdApp開発までの包括的なブロックチェーンソリューション",
         "features": [
@@ -280,6 +395,7 @@
         "color": "blue"
       },
       {
+        "id": "ai-ml-solutions",
         "title": "AI/MLソリューション",
         "description": "高度な人工知能と機械学習の実装",
         "features": [
@@ -301,6 +417,7 @@
         "color": "purple"
       },
       {
+        "id": "full-stack-cloud-engineering",
         "title": "フルスタック＆クラウドエンジニアリング",
         "description": "スケーラブルなWebアプリケーションとクラウドインフラストラクチャソリューション",
         "features": [
@@ -322,6 +439,7 @@
         "color": "green"
       },
       {
+        "id": "smart-contract-audits",
         "title": "スマートコントラクト監査",
         "description": "包括的なセキュリティ監査と脆弱性評価",
         "features": [
@@ -334,10 +452,16 @@
           "修正ガイダンス",
           "継続的なセキュリティ監視"
         ],
-        "projects": ["DeFiプロトコル監査", "NFT契約レビュー", "DAOガバナンス監査", "トークン契約分析"],
+        "projects": [
+          "DeFiプロトコル監査",
+          "NFT契約レビュー",
+          "DAOガバナンス監査",
+          "トークン契約分析"
+        ],
         "color": "red"
       },
       {
+        "id": "trading-bots-platforms",
         "title": "取引ボット＆プラットフォーム",
         "description": "自動取引ソリューションとプラットフォーム開発",
         "features": [
@@ -385,13 +509,22 @@
       "title": "なぜKNC Innovationを選ぶのか？",
       "subtitle": "技術分野で私たちが他と一線を画す理由",
       "reasons": [
-        { "title": "7年以上の経験", "description": "2018年以来、複数の技術分野で実績あり" },
+        {
+          "title": "7年以上の経験",
+          "description": "2018年以来、複数の技術分野で実績あり"
+        },
         {
           "title": "フルスタックの専門知識",
           "description": "フロントエンドからブロックチェーン、AI統合までのエンドツーエンドソリューション"
         },
-        { "title": "品質保証", "description": "すべての成果物に対する厳格なテストとセキュリティ監査" },
-        { "title": "継続的なサポート", "description": "すべてのソリューションに対する継続的なメンテナンスとサポート" }
+        {
+          "title": "品質保証",
+          "description": "すべての成果物に対する厳格なテストとセキュリティ監査"
+        },
+        {
+          "title": "継続的なサポート",
+          "description": "すべてのソリューションに対する継続的なメンテナンスとサポート"
+        }
       ]
     },
     "cta": {
@@ -429,14 +562,30 @@
       "title": "連絡先情報",
       "subtitle": "私たちのチームに連絡する複数の方法",
       "items": [
-        { "title": "メール", "value": "info@kncinnovation.com", "description": "いつでもメールをお送りください" },
-        { "title": "電話", "value": "+1 (201) 555-0123", "description": "営業時間内にお電話ください" },
         {
+          "id": "email",
+          "title": "メール",
+          "value": "info@kncinnovations.com",
+          "description": "いつでもメールをお送りください"
+        },
+        {
+          "id": "phone",
+          "title": "電話",
+          "value": "+1 (732) 217-7702",
+          "description": "営業時間内にお電話ください"
+        },
+        {
+          "id": "location",
           "title": "場所",
           "value": "ニュージャージー州リトルフェリー",
           "description": "リモートファースト、東海岸に拠点あり"
         },
-        { "title": "営業時間", "value": "月〜金 午前9時〜午後6時（EST）", "description": "24時間以内に返信します" }
+        {
+          "id": "business-hours",
+          "title": "営業時間",
+          "value": "月〜金 午前9時〜午後6時（EST）",
+          "description": "24時間以内に返信します"
+        }
       ]
     },
     "social": {
@@ -481,15 +630,22 @@
       "subtitle": "単なる仕事ではなく、イノベーションのキャリアです",
       "benefits": [
         {
+          "id": "remote-first",
           "title": "リモートファースト文化",
           "description": "柔軟な時間と非同期コラボレーションで世界中どこからでも働けます"
         },
         {
+          "id": "cutting-edge",
           "title": "最先端のプロジェクト",
           "description": "限界を押し広げる革新的なブロックチェーン、AI、フルスタックプロジェクトに取り組みます"
         },
-        { "title": "学習と成長", "description": "継続的な学習機会、会議への参加、スキル開発" },
         {
+          "id": "learning-growth",
+          "title": "学習と成長",
+          "description": "継続的な学習機会、会議への参加、スキル開発"
+        },
+        {
+          "id": "work-life-balance",
           "title": "ワークライフバランス",
           "description": "柔軟なスケジュール、無制限の有給休暇、時間ではなく成果に焦点を当てます"
         }
@@ -499,7 +655,10 @@
       "title": "私たちの価値観",
       "subtitle": "私たちの仕事と文化を導く原則",
       "items": [
-        { "title": "イノベーション第一", "description": "私たちは常に新しい技術を探求し、可能性の限界を押し広げます" },
+        {
+          "title": "イノベーション第一",
+          "description": "私たちは常に新しい技術を探求し、可能性の限界を押し広げます"
+        },
         {
           "title": "品質の卓越性",
           "description": "コードの品質、セキュリティ、ユーザーエクスペリエンスにおいて最高水準を維持します"
@@ -530,15 +689,32 @@
             "DeFiプロトコルの知識",
             "スマートコントラクトのセキュリティ"
           ],
-          "skills": ["Solidity", "Web3.js", "Hardhat", "DeFi", "スマートコントラクト"]
+          "skills": [
+            "Solidity",
+            "Web3.js",
+            "Hardhat",
+            "DeFi",
+            "スマートコントラクト"
+          ]
         },
         {
           "title": "AI/MLエンジニア",
           "type": "フルタイム",
           "location": "リモート",
           "description": "機械学習モデル、コンピュータビジョンシステム、AI搭載アプリケーションを開発・展開",
-          "requirements": ["3年以上のML経験", "Pythonの専門知識", "深層学習フレームワーク", "モデル展開"],
-          "skills": ["Python", "TensorFlow", "PyTorch", "コンピュータビジョン", "NLP"]
+          "requirements": [
+            "3年以上のML経験",
+            "Pythonの専門知識",
+            "深層学習フレームワーク",
+            "モデル展開"
+          ],
+          "skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "コンピュータビジョン",
+            "NLP"
+          ]
         },
         {
           "title": "フルスタック開発者",
@@ -558,7 +734,12 @@
           "type": "契約",
           "location": "リモート",
           "description": "クラウドインフラ、CI/CDパイプライン、展開自動化を管理",
-          "requirements": ["3年以上のDevOps経験", "AWS/Azure", "Docker/Kubernetes", "Infrastructure as Code"],
+          "requirements": [
+            "3年以上のDevOps経験",
+            "AWS/Azure",
+            "Docker/Kubernetes",
+            "Infrastructure as Code"
+          ],
           "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
         }
       ]
@@ -567,10 +748,22 @@
       "title": "応募プロセス",
       "subtitle": "シンプルで透明な採用プロセス",
       "steps": [
-        { "title": "応募", "description": "興味のあるポジションに履歴書とカバーレターを送付" },
-        { "title": "スクリーニング", "description": "経歴と役割について話し合うための最初の電話/ビデオ通話" },
-        { "title": "技術面接", "description": "ポジションに関連する技術面接および/またはコーディングチャレンジ" },
-        { "title": "最終面接", "description": "チームと会い、文化適合性、報酬、次のステップについて話し合う" }
+        {
+          "title": "応募",
+          "description": "興味のあるポジションに履歴書とカバーレターを送付"
+        },
+        {
+          "title": "スクリーニング",
+          "description": "経歴と役割について話し合うための最初の電話/ビデオ通話"
+        },
+        {
+          "title": "技術面接",
+          "description": "ポジションに関連する技術面接および/またはコーディングチャレンジ"
+        },
+        {
+          "title": "最終面接",
+          "description": "チームと会い、文化適合性、報酬、次のステップについて話し合う"
+        }
       ]
     },
     "cta": {

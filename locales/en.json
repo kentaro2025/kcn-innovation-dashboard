@@ -94,14 +94,17 @@
       "subtitle": "The principles that guide everything we do",
       "items": [
         {
+          "id": "innovation",
           "title": "Innovation First",
           "description": "We constantly push the boundaries of what's possible with technology, staying ahead of industry trends and emerging solutions."
         },
         {
+          "id": "client-success",
           "title": "Client Success",
           "description": "Our clients' success is our success. We build long-term partnerships and deliver solutions that drive real business value."
         },
         {
+          "id": "quality",
           "title": "Quality Excellence",
           "description": "We maintain the highest standards in everything we do, from code quality to customer service and project delivery."
         }
@@ -112,16 +115,64 @@
       "subtitle": "Meet the visionaries behind KNC Innovation",
       "members": [
         {
-          "name": "Kentaro Namba",
+          "name": "HIMURO KYUOSUKE",
           "role": "Chief Executive Officer",
-          "bio": "Visionary leader with extensive experience in technology innovation and business strategy. Kentaro has been driving KNC Innovation's growth since its founding in 2018, focusing on emerging technologies and market expansion.",
-          "expertise": ["Strategic Planning", "Business Development", "Technology Vision", "Team Leadership"]
+          "image": "/profile1.png?height=64&width=64",
+          "bio": "Visionary leader with extensive experience in technology innovation and business strategy. Himuro has been driving KNC Innovation's growth since its founding in 2018, focusing on emerging technologies and market expansion.",
+          "expertise": [
+            "Strategic Planning",
+            "Business Development",
+            "Technology Vision",
+            "Team Leadership"
+          ]
         },
         {
-          "name": "Chanthai Sihabouth",
+          "name": "CHANTHAI SYVONGSA",
           "role": "Chief Technology Officer",
+          "image": "/profile2.png?height=64&width=64",
           "bio": "Technical architect and engineering leader with deep expertise across blockchain, AI, and cloud technologies. Chanthai oversees all technical development and ensures our solutions meet the highest standards.",
-          "expertise": ["Blockchain Development", "AI/ML Engineering", "Cloud Architecture", "Technical Leadership"]
+          "expertise": [
+            "Blockchain Development",
+            "AI/ML Engineering",
+            "Cloud Architecture",
+            "Technical Leadership"
+          ]
+        },
+        {
+          "name": "Alexander Moreau",
+          "role": "Vice President",
+          "image": "/profile3.png?height=64&width=64",
+          "bio": "Strategic and results-driven Vice President with a proven track record of expanding market presence and fostering key partnerships. Isabelle leads our global operations and corporate strategy.",
+          "expertise": [
+            "Global Operations",
+            "Market Expansion",
+            "Corporate Strategy",
+            "Partnership Development"
+          ]
+        },
+        {
+          "name": "Yuki Tanaka",
+          "role": "Asia Marketer",
+          "image": "/profile4.png?height=64&width=64",
+          "bio": "Dynamic marketing professional specializing in the Asian tech landscape. Yuki develops and executes innovative marketing campaigns that resonate with diverse audiences across the region.",
+          "expertise": [
+            "Digital Marketing",
+            "Brand Strategy",
+            "Market Research",
+            "Content Creation"
+          ]
+        },
+        {
+          "name": "Li Wei",
+          "role": "Lead Developer",
+          "image": "/profile5.png?height=64&width=64",
+          "bio": "Experienced lead developer with a passion for building robust and scalable software solutions. Li Wei guides our development team in creating high-quality products from concept to deployment.",
+          "expertise": [
+            "Software Architecture",
+            "Full-Stack Development",
+            "Agile Methodologies",
+            "Team Mentorship"
+          ]
         }
       ]
     },
@@ -133,13 +184,20 @@
           "year": "2018",
           "title": "Company Founded",
           "description": "KNC Innovation established with focus on automation and bot development",
-          "achievements": ["First automation tools launched", "Initial client base established"]
+          "achievements": [
+            "First automation tools launched",
+            "Initial client base established"
+          ]
         },
         {
           "year": "2020",
           "title": "Blockchain Expansion",
           "description": "Pivoted to blockchain technology and DeFi solutions",
-          "achievements": ["DeFi dApps development", "NFT marketplace creation", "Smart contract auditing services"]
+          "achievements": [
+            "DeFi dApps development",
+            "NFT marketplace creation",
+            "Smart contract auditing services"
+          ]
         },
         {
           "year": "2022",
@@ -165,7 +223,11 @@
           "year": "2025",
           "title": "Trading Innovation",
           "description": "Focus on advanced trading platforms and automation",
-          "achievements": ["Crypto trading bot development", "Advanced trading algorithms", "Platform integrations"]
+          "achievements": [
+            "Crypto trading bot development",
+            "Advanced trading algorithms",
+            "Platform integrations"
+          ]
         }
       ]
     },
@@ -183,64 +245,124 @@
     },
     "products": [
       {
+        "id": "loveconnect",
         "name": "LoveConnect",
         "description": "Modern dating app with advanced matching algorithms and real-time messaging features",
         "category": "Mobile App",
-        "features": ["AI-powered matching", "Real-time chat", "Video calls", "Profile verification"]
+        "features": [
+          "AI-powered matching",
+          "Real-time chat",
+          "Video calls",
+          "Profile verification"
+        ]
       },
       {
+        "id": "ai-movie-generator",
         "name": "AI Movie Generator",
         "description": "AI-powered tool for creating movies and video content with automated editing and effects",
         "category": "AI/ML",
-        "features": ["AI video generation", "Automated editing", "Custom effects", "Script analysis"]
+        "features": [
+          "AI video generation",
+          "Automated editing",
+          "Custom effects",
+          "Script analysis"
+        ]
       },
       {
+        "id": "cleverchat",
         "name": "CleverChat",
         "description": "GPT-based smart chatbot for customer service with natural language processing",
         "category": "AI/ML",
-        "features": ["Natural language processing", "Multi-language support", "Integration APIs", "Analytics dashboard"]
+        "features": [
+          "Natural language processing",
+          "Multi-language support",
+          "Integration APIs",
+          "Analytics dashboard"
+        ]
       },
       {
+        "id": "modernshop",
         "name": "ModernShop",
         "description": "Full-featured eCommerce platform with modern UI and comprehensive management tools",
         "category": "Web Platform",
-        "features": ["Product management", "Payment processing", "Inventory tracking", "Analytics"]
+        "features": [
+          "Product management",
+          "Payment processing",
+          "Inventory tracking",
+          "Analytics"
+        ]
       },
       {
+        "id": "basistradingbot",
         "name": "BasisTradingBot",
         "description": "Automated crypto trading bot with advanced strategies and risk management",
         "category": "Blockchain",
-        "features": ["Automated trading", "Risk management", "Multiple exchanges", "Strategy backtesting"]
+        "features": [
+          "Automated trading",
+          "Risk management",
+          "Multiple exchanges",
+          "Strategy backtesting"
+        ]
       },
       {
+        "id": "onmeet",
         "name": "OnMeet",
         "description": "Online meeting and video conferencing platform with screen sharing and recording",
         "category": "Communication",
-        "features": ["HD video calls", "Screen sharing", "Meeting recording", "Chat integration"]
+        "features": [
+          "HD video calls",
+          "Screen sharing",
+          "Meeting recording",
+          "Chat integration"
+        ]
       },
       {
+        "id": "pokercoreplugins",
         "name": "PokerCorePlugins",
         "description": "Advanced poker platform plugins with tournament management and analytics",
         "category": "Gaming",
-        "features": ["Tournament management", "Player analytics", "Custom game modes", "Real-time updates"]
+        "features": [
+          "Tournament management",
+          "Player analytics",
+          "Custom game modes",
+          "Real-time updates"
+        ]
       },
       {
+        "id": "solsniper",
         "name": "SolSniper",
         "description": "Solana sniper bot for NFT minting and trading with advanced monitoring",
         "category": "Blockchain",
-        "features": ["NFT sniping", "Real-time monitoring", "Auto-bidding", "Portfolio tracking"]
+        "features": [
+          "NFT sniping",
+          "Real-time monitoring",
+          "Auto-bidding",
+          "Portfolio tracking"
+        ]
       },
       {
+        "id": "microsip",
         "name": "MicroSIP",
         "description": "Lightweight VoIP softphone system with HD audio and call management",
         "category": "Communication",
-        "features": ["HD audio calls", "Call management", "Contact integration", "Multi-account support"]
+        "features": [
+          "HD audio calls",
+          "Call management",
+          "Contact integration",
+          "Multi-account support"
+        ]
       },
       {
+        "id": "wowsameet",
         "name": "WowsaMeet",
         "description": "Video and audio streaming conference platform with broadcasting capabilities",
         "category": "Communication",
-        "features": ["Live streaming", "Conference hosting", "Broadcasting", "Interactive features"]
+        "features": [
+          "Live streaming",
+          "Conference hosting",
+          "Broadcasting",
+          "Interactive features"
+        ]
       }
     ],
     "stats": {
@@ -263,6 +385,7 @@
     },
     "services": [
       {
+        "id": "blockchain-engineering",
         "title": "Blockchain Engineering",
         "description": "Comprehensive blockchain solutions from smart contracts to full dApp development",
         "features": [
@@ -275,10 +398,16 @@
           "Cross-chain Solutions",
           "Blockchain Consulting"
         ],
-        "projects": ["DeFi Trading Platform", "NFT Marketplace", "Gaming Token Economy", "Cross-chain Bridge"],
+        "projects": [
+          "DeFi Trading Platform",
+          "NFT Marketplace",
+          "Gaming Token Economy",
+          "Cross-chain Bridge"
+        ],
         "color": "blue"
       },
       {
+        "id": "ai-ml-solutions",
         "title": "AI/ML Solutions",
         "description": "Advanced artificial intelligence and machine learning implementations",
         "features": [
@@ -291,10 +420,16 @@
           "Model Training & Optimization",
           "AI Integration Services"
         ],
-        "projects": ["AI Movie Generator", "CleverChat GPT Bot", "Computer Vision System", "Predictive Trading Models"],
+        "projects": [
+          "AI Movie Generator",
+          "CleverChat GPT Bot",
+          "Computer Vision System",
+          "Predictive Trading Models"
+        ],
         "color": "purple"
       },
       {
+        "id": "full-stack-cloud-engineering",
         "title": "Full Stack & Cloud Engineering",
         "description": "Scalable web applications and cloud infrastructure solutions",
         "features": [
@@ -316,6 +451,7 @@
         "color": "green"
       },
       {
+        "id": "smart-contract-audits",
         "title": "Smart Contract Audits",
         "description": "Comprehensive security audits and vulnerability assessments",
         "features": [
@@ -328,10 +464,16 @@
           "Remediation Guidance",
           "Ongoing Security Monitoring"
         ],
-        "projects": ["DeFi Protocol Audit", "NFT Contract Review", "DAO Governance Audit", "Token Contract Analysis"],
+        "projects": [
+          "DeFi Protocol Audit",
+          "NFT Contract Review",
+          "DAO Governance Audit",
+          "Token Contract Analysis"
+        ],
         "color": "red"
       },
       {
+        "id": "trading-bots-platforms",
         "title": "Trading Bots & Platforms",
         "description": "Automated trading solutions and platform development",
         "features": [
@@ -391,7 +533,10 @@
           "title": "Quality Assurance",
           "description": "Rigorous testing and security audits for all our deliverables"
         },
-        { "title": "Ongoing Support", "description": "Continuous maintenance and support for all our solutions" }
+        {
+          "title": "Ongoing Support",
+          "description": "Continuous maintenance and support for all our solutions"
+        }
       ]
     },
     "cta": {
@@ -429,10 +574,30 @@
       "title": "Contact Information",
       "subtitle": "Multiple ways to reach our team",
       "items": [
-        { "title": "Email", "value": "info@kncinnovation.com", "description": "Send us an email anytime" },
-        { "title": "Phone", "value": "+1 (201) 555-0123", "description": "Call us during business hours" },
-        { "title": "Location", "value": "Little Ferry, NJ", "description": "Remote-first with East Coast presence" },
-        { "title": "Business Hours", "value": "Mon-Fri 9AM-6PM EST", "description": "We respond within 24 hours" }
+        {
+          "id": "email",
+          "title": "Email",
+          "value": "info@kncinnovations.com",
+          "description": "Send us an email anytime"
+        },
+        {
+          "id": "phone",
+          "title": "Phone",
+          "value": "+1 (201) 555-0123",
+          "description": "Call us during business hours"
+        },
+        {
+          "id": "location",
+          "title": "Location",
+          "value": "Little Ferry, NJ",
+          "description": "Remote-first with East Coast presence"
+        },
+        {
+          "id": "business-hours",
+          "title": "Business Hours",
+          "value": "Mon-Fri 9AM-6PM EST",
+          "description": "We respond within 24 hours"
+        }
       ]
     },
     "social": {
@@ -477,18 +642,22 @@
       "subtitle": "More than just a job - it's a career in innovation",
       "benefits": [
         {
+          "id": "remote-first",
           "title": "Remote-First Culture",
           "description": "Work from anywhere in the world with flexible hours and async collaboration"
         },
         {
+          "id": "cutting-edge",
           "title": "Cutting-Edge Projects",
           "description": "Work on innovative blockchain, AI, and full-stack projects that push boundaries"
         },
         {
+          "id": "learning-growth",
           "title": "Learning & Growth",
           "description": "Continuous learning opportunities, conference attendance, and skill development"
         },
         {
+          "id": "work-life-balance",
           "title": "Work-Life Balance",
           "description": "Flexible schedules, unlimited PTO, and focus on results over hours"
         }
@@ -532,7 +701,13 @@
             "DeFi protocol knowledge",
             "Smart contract security"
           ],
-          "skills": ["Solidity", "Web3.js", "Hardhat", "DeFi", "Smart Contracts"]
+          "skills": [
+            "Solidity",
+            "Web3.js",
+            "Hardhat",
+            "DeFi",
+            "Smart Contracts"
+          ]
         },
         {
           "title": "AI/ML Engineer",
@@ -545,14 +720,25 @@
             "Deep learning frameworks",
             "Model deployment"
           ],
-          "skills": ["Python", "TensorFlow", "PyTorch", "Computer Vision", "NLP"]
+          "skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Computer Vision",
+            "NLP"
+          ]
         },
         {
           "title": "Full Stack Developer",
           "type": "Full-time",
           "location": "Remote",
           "description": "Build scalable web applications, APIs, and cloud infrastructure solutions",
-          "requirements": ["4+ years full-stack experience", "React/Node.js", "Cloud platforms", "Database design"],
+          "requirements": [
+            "4+ years full-stack experience",
+            "React/Node.js",
+            "Cloud platforms",
+            "Database design"
+          ],
           "skills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
         },
         {
@@ -560,7 +746,12 @@
           "type": "Contract",
           "location": "Remote",
           "description": "Manage cloud infrastructure, CI/CD pipelines, and deployment automation",
-          "requirements": ["3+ years DevOps experience", "AWS/Azure", "Docker/Kubernetes", "Infrastructure as Code"],
+          "requirements": [
+            "3+ years DevOps experience",
+            "AWS/Azure",
+            "Docker/Kubernetes",
+            "Infrastructure as Code"
+          ],
           "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
         }
       ]
@@ -569,10 +760,22 @@
       "title": "Application Process",
       "subtitle": "Simple and transparent hiring process",
       "steps": [
-        { "title": "Apply", "description": "Send your resume and cover letter for the position you're interested in" },
-        { "title": "Screen", "description": "Initial phone/video call to discuss your background and the role" },
-        { "title": "Technical", "description": "Technical interview and/or coding challenge relevant to the position" },
-        { "title": "Final", "description": "Meet the team and discuss culture fit, compensation, and next steps" }
+        {
+          "title": "Apply",
+          "description": "Send your resume and cover letter for the position you're interested in"
+        },
+        {
+          "title": "Screen",
+          "description": "Initial phone/video call to discuss your background and the role"
+        },
+        {
+          "title": "Technical",
+          "description": "Technical interview and/or coding challenge relevant to the position"
+        },
+        {
+          "title": "Final",
+          "description": "Meet the team and discuss culture fit, compensation, and next steps"
+        }
       ]
     },
     "cta": {

@@ -1,15 +1,29 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Code, Cpu, Zap, Calendar, ExternalLink, Github } from "lucide-react"
-import Link from "next/link"
-import { EnhancedCard } from "@/components/enhanced-card"
-import { AnimatedCounter } from "@/components/animated-counter"
-import { GradientText } from "@/components/gradient-text"
-import { FloatingElements } from "@/components/floating-elements"
-import { useLocale } from "@/lib/i18n"
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  ArrowRight,
+  Code,
+  Cpu,
+  Zap,
+  Calendar,
+  ExternalLink,
+  Github,
+} from "lucide-react";
+import Link from "next/link";
+import { EnhancedCard } from "@/components/enhanced-card";
+import { AnimatedCounter } from "@/components/animated-counter";
+import { GradientText } from "@/components/gradient-text";
+import { FloatingElements } from "@/components/floating-elements";
+import { useLocale } from "@/lib/i18n";
 
 const featuredProducts = [
   {
@@ -40,17 +54,17 @@ const featuredProducts = [
     github: "https://github.com/kncinnovation/basis-trading-bot",
     demo: "https://basisbot.demo.com",
   },
-]
+];
 
 export default function HomePage() {
-  const { t, isLoading } = useLocale()
+  const { t, isLoading } = useLocale();
 
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-lg animate-pulse">{t("common.loading")}</div>
       </div>
-    )
+    );
   }
 
   return (
@@ -63,7 +77,7 @@ export default function HomePage() {
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
               {t("hero.title")
                 .split("and AI")
-                .map((part, index) =>
+                .map((part: string, index: number) =>
                   index === 0 ? (
                     <span key={index}>
                       {part}
@@ -71,17 +85,25 @@ export default function HomePage() {
                     </span>
                   ) : (
                     <span key={index}>{part}</span>
-                  ),
+                  )
                 )}
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">{t("hero.subtitle")}</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+              {t("hero.subtitle")}
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="text-lg px-8">
                 <Link href="/products">
-                  {t("hero.exploreProducts")} <ArrowRight className="ml-2 h-5 w-5" />
+                  {t("hero.exploreProducts")}{" "}
+                  <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="text-lg px-8 bg-transparent">
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="text-lg px-8 bg-transparent"
+              >
                 <Link href="/contact">{t("hero.getInTouch")}</Link>
               </Button>
             </div>
@@ -95,19 +117,27 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <AnimatedCounter end={7} suffix="+" />
-              <div className="text-gray-600 dark:text-gray-300">{t("stats.yearsExperience")}</div>
+              <div className="text-gray-600 dark:text-gray-300">
+                {t("stats.yearsExperience")}
+              </div>
             </div>
             <div>
               <AnimatedCounter end={10} suffix="+" />
-              <div className="text-gray-600 dark:text-gray-300">{t("stats.productsBuilt")}</div>
+              <div className="text-gray-600 dark:text-gray-300">
+                {t("stats.productsBuilt")}
+              </div>
             </div>
             <div>
               <AnimatedCounter end={3} />
-              <div className="text-gray-600 dark:text-gray-300">{t("stats.coreTechnologies")}</div>
+              <div className="text-gray-600 dark:text-gray-300">
+                {t("stats.coreTechnologies")}
+              </div>
             </div>
             <div>
               <AnimatedCounter end={100} suffix="+" />
-              <div className="text-gray-600 dark:text-gray-300">{t("stats.projectsDelivered")}</div>
+              <div className="text-gray-600 dark:text-gray-300">
+                {t("stats.projectsDelivered")}
+              </div>
             </div>
           </div>
         </div>
@@ -117,8 +147,12 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">{t("journey.title")}</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">{t("journey.subtitle")}</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              {t("journey.title")}
+            </h2>
+            <p className="text-xl text-gray-600 dark:text-gray-300">
+              {t("journey.subtitle")}
+            </p>
           </div>
 
           <div className="relative">
@@ -127,9 +161,15 @@ export default function HomePage() {
               {["2018", "2020", "2022", "2024", "2025"].map((year, index) => (
                 <div
                   key={year}
-                  className={`relative flex items-center ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
+                  className={`relative flex items-center ${
+                    index % 2 === 0 ? "justify-start" : "justify-end"
+                  }`}
                 >
-                  <div className={`w-full md:w-5/12 ${index % 2 === 0 ? "pr-8" : "pl-8"}`}>
+                  <div
+                    className={`w-full md:w-5/12 ${
+                      index % 2 === 0 ? "pr-8" : "pl-8"
+                    }`}
+                  >
                     <EnhancedCard
                       title={t(`journey.milestones.${year}.title`)}
                       description={t(`journey.milestones.${year}.description`)}
@@ -154,12 +194,17 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
               {t("featuredProducts.title")}
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">{t("featuredProducts.subtitle")}</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">
+              {t("featuredProducts.subtitle")}
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {featuredProducts.map((product) => (
-              <Card key={product.name} className="group hover:shadow-lg transition-shadow">
+              <Card
+                key={product.name}
+                className="group hover:shadow-lg transition-shadow"
+              >
                 <CardHeader>
                   <div className="flex items-center justify-between">
                     <Badge variant="outline">{product.category}</Badge>
@@ -180,10 +225,14 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
-                    {product.name === "LoveConnect" && "Modern dating app with advanced matching algorithms"}
-                    {product.name === "AI Movie Generator" && "AI-powered tool for creating movies and video content"}
-                    {product.name === "CleverChat" && "GPT-based smart chatbot for customer service"}
-                    {product.name === "BasisTradingBot" && "Automated crypto trading bot with advanced strategies"}
+                    {product.name === "LoveConnect" &&
+                      "Modern dating app with advanced matching algorithms"}
+                    {product.name === "AI Movie Generator" &&
+                      "AI-powered tool for creating movies and video content"}
+                    {product.name === "CleverChat" &&
+                      "GPT-based smart chatbot for customer service"}
+                    {product.name === "BasisTradingBot" &&
+                      "Automated crypto trading bot with advanced strategies"}
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -193,7 +242,8 @@ export default function HomePage() {
           <div className="text-center">
             <Button asChild size="lg">
               <Link href="/products">
-                {t("featuredProducts.viewAll")} <ArrowRight className="ml-2 h-5 w-5" />
+                {t("featuredProducts.viewAll")}{" "}
+                <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>
@@ -204,8 +254,12 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">{t("services.title")}</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">{t("services.subtitle")}</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              {t("services.title")}
+            </h2>
+            <p className="text-xl text-gray-600 dark:text-gray-300">
+              {t("services.subtitle")}
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -213,8 +267,12 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Code className="h-8 w-8 text-blue-600 dark:text-blue-400" />
               </div>
-              <CardTitle className="mb-2">{t("services.blockchain.title")}</CardTitle>
-              <CardDescription>{t("services.blockchain.description")}</CardDescription>
+              <CardTitle className="mb-2">
+                {t("services.blockchain.title")}
+              </CardTitle>
+              <CardDescription>
+                {t("services.blockchain.description")}
+              </CardDescription>
             </Card>
 
             <Card className="text-center p-6">
@@ -229,8 +287,12 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Zap className="h-8 w-8 text-green-600 dark:text-green-400" />
               </div>
-              <CardTitle className="mb-2">{t("services.fullstack.title")}</CardTitle>
-              <CardDescription>{t("services.fullstack.description")}</CardDescription>
+              <CardTitle className="mb-2">
+                {t("services.fullstack.title")}
+              </CardTitle>
+              <CardDescription>
+                {t("services.fullstack.description")}
+              </CardDescription>
             </Card>
           </div>
 
@@ -245,8 +307,12 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 bg-blue-600 dark:bg-blue-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t("cta.title")}</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">{t("cta.subtitle")}</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            {t("cta.title")}
+          </h2>
+          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            {t("cta.subtitle")}
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary">
               <Link href="/contact">{t("cta.startProject")}</Link>
@@ -263,5 +329,5 @@ export default function HomePage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

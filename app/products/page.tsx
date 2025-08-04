@@ -25,16 +25,16 @@ import { AnimatedCounter } from "@/components/animated-counter"
 import { useLocale } from "@/lib/i18n"
 
 const productIcons: { [key: string]: React.ElementType } = {
-  LoveConnect: Heart,
-  "AI Movie Generator": Film,
-  CleverChat: MessageCircle,
-  ModernShop: ShoppingCart,
-  BasisTradingBot: TrendingUp,
-  OnMeet: Video,
-  PokerCorePlugins: Gamepad2,
-  SolSniper: TrendingUp,
-  MicroSIP: Phone,
-  WowsaMeet: Users,
+  loveconnect: Heart,
+  "ai-movie-generator": Film,
+  cleverchat: MessageCircle,
+  modernshop: ShoppingCart,
+  basistradingbot: TrendingUp,
+  onmeet: Video,
+  pokercoreplugins: Gamepad2,
+  solsniper: TrendingUp,
+  microsip: Phone,
+  wowsameet: Users,
 }
 
 export default function ProductsPage() {
@@ -71,10 +71,10 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
             {products.map((product: any, index: number) => {
-              const Icon = productIcons[product.name] || Users
-              const githubUrl = `https://github.com/kncinnovation/${product.name.toLowerCase().replace(/\s/g, "-")}`
-              const demoUrl = `https://${product.name.toLowerCase().replace(/\s/g, "")}.demo.com`
-              const docsUrl = `https://docs.${product.name.toLowerCase().replace(/\s/g, "")}.com`
+              const Icon = productIcons[product.id] || Users
+              const githubUrl = `https://github.com/kncinnovation/${product.id}`
+              const demoUrl = `https://${product.id.replace(/-/g, "")}.demo.com`
+              const docsUrl = `https://docs.${product.id.replace(/-/g, "")}.com`
 
               return (
                 <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg">

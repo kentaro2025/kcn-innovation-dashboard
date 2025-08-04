@@ -10,18 +10,10 @@ import Link from "next/link"
 import { useLocale } from "@/lib/i18n"
 
 const benefitIcons: { [key: string]: React.ElementType } = {
-  "Remote-First Culture": Globe,
-  "Cutting-Edge Projects": Zap,
-  "Learning & Growth": Users,
-  "Work-Life Balance": Heart,
-  远程优先文化: Globe,
-  前沿项目: Zap,
-  学习与成长: Users,
-  工作与生活平衡: Heart,
-  リモートファースト文化: Globe,
-  最先端のプロジェクト: Zap,
-  学習と成長: Users,
-  ワークライフバランス: Heart,
+  "remote-first": Globe,
+  "cutting-edge": Zap,
+  "learning-growth": Users,
+  "work-life-balance": Heart,
 }
 
 export default function CareersPage() {
@@ -68,7 +60,7 @@ export default function CareersPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit: any, index: number) => {
-              const Icon = benefitIcons[benefit.title] || Heart
+              const Icon = benefitIcons[benefit.id] || Heart
               return (
                 <Card key={index} className="text-center p-6 border-0 shadow-lg">
                   <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">

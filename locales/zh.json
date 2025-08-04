@@ -94,14 +94,17 @@
       "subtitle": "指导我们一切行动的原则",
       "items": [
         {
+          "id": "innovation",
           "title": "创新优先",
           "description": "我们不断推动技术可能性的边界，保持在行业趋势和新兴解决方案的前沿。"
         },
         {
+          "id": "client-success",
           "title": "客户成功",
           "description": "客户的成功就是我们的成功。我们建立长期合作伙伴关系，提供推动真正商业价值的解决方案。"
         },
         {
+          "id": "quality",
           "title": "卓越品质",
           "description": "我们在所做的一切中都保持最高标准，从代码质量到客户服务和项目交付。"
         }
@@ -112,16 +115,39 @@
       "subtitle": "认识KNC Innovation背后的远见者",
       "members": [
         {
-          "name": "Kentaro Namba",
+          "name": "氷室 京介",
           "role": "首席执行官",
-          "bio": "富有远见的领导者，在技术创新和商业战略方面拥有丰富经验。自2018年成立以来，Kentaro一直致力于新兴技术和市场扩张，推动KNC Innovation的增长。",
+          "image": "/profile1.png?height=64&width=64",
+          "bio": "富有远见的领导者，在技术创新和商业战略方面拥有丰富经验。自2018年成立以来，氷室一直致力于新兴技术和市场扩张，推动KNC Innovation的增长。",
           "expertise": ["战略规划", "业务发展", "技术愿景", "团队领导"]
         },
         {
-          "name": "Chanthai Sihabouth",
+          "name": "CHANTHAI SYVONGSA",
           "role": "首席技术官",
+          "image": "/profile2.png?height=64&width=64",
           "bio": "技术架构师和工程领导者，在区块链、人工智能和云技术方面拥有深厚的专业知识。Chanthai负责所有技术开发，并确保我们的解决方案达到最高标准。",
           "expertise": ["区块链开发", "AI/ML工程", "云架构", "技术领导"]
+        },
+        {
+          "name": "Alexander Moreau",
+          "role": "副总裁",
+          "image": "/profile3.png?height=64&width=64",
+          "bio": "战略性且注重结果的副总裁，在扩大市场影响力和促进关键合作伙伴关系方面拥有良好记录。伊莎贝尔领导我们的全球运营和公司战略。",
+          "expertise": ["全球运营", "市场扩张", "公司战略", "合作伙伴发展"]
+        },
+        {
+          "name": "田中 佑希",
+          "role": "亚洲市场营销",
+          "image": "/profile4.png?height=64&width=64",
+          "bio": "专注于亚洲科技领域的充满活力的营销专业人士。佑希开发并执行创新的营销活动，与该地区的不同受众产生共鸣。",
+          "expertise": ["数字营销", "品牌战略", "市场研究", "内容创作"]
+        },
+        {
+          "name": "李伟",
+          "role": "首席开发人员",
+          "image": "/profile5.png?height=64&width=64",
+          "bio": "经验丰富的首席开发人员，热衷于构建强大且可扩展的软件解决方案。李伟指导我们的开发团队从概念到部署创建高质量的产品。",
+          "expertise": ["软件架构", "全栈开发", "敏捷方法", "团队指导"]
         }
       ]
     },
@@ -151,7 +177,11 @@
           "year": "2024",
           "title": "AI集成",
           "description": "集成AI和机器学习能力",
-          "achievements": ["TensorFlow和PyTorch实施", "AI驱动产品发布", "机器学习咨询服务"]
+          "achievements": [
+            "TensorFlow和PyTorch实施",
+            "AI驱动产品发布",
+            "机器学习咨询服务"
+          ]
         },
         {
           "year": "2025",
@@ -175,60 +205,70 @@
     },
     "products": [
       {
+        "id": "loveconnect",
         "name": "LoveConnect",
         "description": "具有先进匹配算法和实时消息功能的现代约会应用",
         "category": "移动应用",
         "features": ["AI驱动匹配", "实时聊天", "视频通话", "个人资料验证"]
       },
       {
+        "id": "ai-movie-generator",
         "name": "AI Movie Generator",
         "description": "用于创建电影和视频内容并具有自动编辑和效果的AI工具",
         "category": "AI/ML",
         "features": ["AI视频生成", "自动编辑", "自定义效果", "脚本分析"]
       },
       {
+        "id": "cleverchat",
         "name": "CleverChat",
         "description": "基于GPT的智能客服聊天机器人，具有自然语言处理功能",
         "category": "AI/ML",
         "features": ["自然语言处理", "多语言支持", "集成API", "分析仪表板"]
       },
       {
+        "id": "modernshop",
         "name": "ModernShop",
         "description": "功能齐全的电子商务平台，具有现代UI和全面的管理工具",
         "category": "Web平台",
         "features": ["产品管理", "支付处理", "库存跟踪", "分析"]
       },
       {
+        "id": "basistradingbot",
         "name": "BasisTradingBot",
         "description": "具有先进策略和风险管理的自动化加密货币交易机器人",
         "category": "区块链",
         "features": ["自动交易", "风险管理", "多交易所支持", "策略回测"]
       },
       {
+        "id": "onmeet",
         "name": "OnMeet",
         "description": "具有屏幕共享和录制功能的在线会议和视频会议平台",
         "category": "通信",
         "features": ["高清视频通话", "屏幕共享", "会议录制", "聊天集成"]
       },
       {
+        "id": "pokercoreplugins",
         "name": "PokerCorePlugins",
         "description": "具有锦标赛管理和分析功能的高级扑克平台插件",
         "category": "游戏",
         "features": ["锦标赛管理", "玩家分析", "自定义游戏模式", "实时更新"]
       },
       {
+        "id": "solsniper",
         "name": "SolSniper",
         "description": "用于NFT铸造和交易的Solana狙击机器人，具有高级监控功能",
         "category": "区块链",
         "features": ["NFT狙击", "实时监控", "自动出价", "投资组合跟踪"]
       },
       {
+        "id": "microsip",
         "name": "MicroSIP",
         "description": "具有高清音频和呼叫管理的轻量级VoIP软电话系统",
         "category": "通信",
         "features": ["高清音频通话", "呼叫管理", "联系人集成", "多账户支持"]
       },
       {
+        "id": "wowsameet",
         "name": "WowsaMeet",
         "description": "具有广播功能的视频和音频流会议平台",
         "category": "通信",
@@ -255,6 +295,7 @@
     },
     "services": [
       {
+        "id": "blockchain-engineering",
         "title": "区块链工程",
         "description": "从智能合约到完整dApp开发的全面区块链解决方案",
         "features": [
@@ -271,6 +312,7 @@
         "color": "blue"
       },
       {
+        "id": "ai-ml-solutions",
         "title": "AI/ML解决方案",
         "description": "先进的人工智能和机器学习实施",
         "features": [
@@ -283,10 +325,16 @@
           "模型训练和优化",
           "AI集成服务"
         ],
-        "projects": ["AI电影生成器", "CleverChat GPT机器人", "计算机视觉系统", "预测交易模型"],
+        "projects": [
+          "AI电影生成器",
+          "CleverChat GPT机器人",
+          "计算机视觉系统",
+          "预测交易模型"
+        ],
         "color": "purple"
       },
       {
+        "id": "full-stack-cloud-engineering",
         "title": "全栈和云工程",
         "description": "可扩展的Web应用程序和云基础设施解决方案",
         "features": [
@@ -299,10 +347,16 @@
           "DevOps和CI/CD管道",
           "性能优化"
         ],
-        "projects": ["ModernShop电子商务", "OnMeet视频平台", "云迁移项目", "企业API网关"],
+        "projects": [
+          "ModernShop电子商务",
+          "OnMeet视频平台",
+          "云迁移项目",
+          "企业API网关"
+        ],
         "color": "green"
       },
       {
+        "id": "smart-contract-audits",
         "title": "智能合约审计",
         "description": "全面的安全审计和漏洞评估",
         "features": [
@@ -315,10 +369,16 @@
           "修复指导",
           "持续安全监控"
         ],
-        "projects": ["DeFi协议审计", "NFT合约审查", "DAO治理审计", "代币合约分析"],
+        "projects": [
+          "DeFi协议审计",
+          "NFT合约审查",
+          "DAO治理审计",
+          "代币合约分析"
+        ],
         "color": "red"
       },
       {
+        "id": "trading-bots-platforms",
         "title": "交易机器人和平台",
         "description": "自动化交易解决方案和平台开发",
         "features": [
@@ -331,7 +391,12 @@
           "交易所API集成",
           "交易平台开发"
         ],
-        "projects": ["BasisTradingBot", "SolSniper NFT机器人", "多交易所套利", "投资组合分析仪表板"],
+        "projects": [
+          "BasisTradingBot",
+          "SolSniper NFT机器人",
+          "多交易所套利",
+          "投资组合分析仪表板"
+        ],
         "color": "yellow"
       }
     ],
@@ -339,20 +404,44 @@
       "title": "我们的开发流程",
       "subtitle": "确保项目成功交付的成熟方法论",
       "steps": [
-        { "title": "发现与规划", "description": "我们分析您的需求，定义项目范围，并创建详细的路线图。" },
-        { "title": "设计与架构", "description": "我们的团队设计系统架构并创建技术规范。" },
-        { "title": "开发与测试", "description": "我们采用最佳实践构建您的解决方案，并进行持续测试和质量保证。" },
-        { "title": "部署与支持", "description": "我们部署您的解决方案并提供持续的支持和维护。" }
+        {
+          "title": "发现与规划",
+          "description": "我们分析您的需求，定义项目范围，并创建详细的路线图。"
+        },
+        {
+          "title": "设计与架构",
+          "description": "我们的团队设计系统架构并创建技术规范。"
+        },
+        {
+          "title": "开发与测试",
+          "description": "我们采用最佳实践构建您的解决方案，并进行持续测试和质量保证。"
+        },
+        {
+          "title": "部署与支持",
+          "description": "我们部署您的解决方案并提供持续的支持和维护。"
+        }
       ]
     },
     "why_choose_us": {
       "title": "为什么选择KNC Innovation？",
       "subtitle": "是什么让我们在技术领域脱颖而出",
       "reasons": [
-        { "title": "7年以上经验", "description": "自2018年以来在多个技术领域拥有可靠的往绩记录" },
-        { "title": "全栈专业知识", "description": "从前端到区块链和AI集成的端到端解决方案" },
-        { "title": "质量保证", "description": "对我们所有的交付成果进行严格的测试和安全审计" },
-        { "title": "持续支持", "description": "为我们所有的解决方案提供持续的维护和支持" }
+        {
+          "title": "7年以上经验",
+          "description": "自2018年以来在多个技术领域拥有可靠的往绩记录"
+        },
+        {
+          "title": "全栈专业知识",
+          "description": "从前端到区块链和AI集成的端到端解决方案"
+        },
+        {
+          "title": "质量保证",
+          "description": "对我们所有的交付成果进行严格的测试和安全审计"
+        },
+        {
+          "title": "持续支持",
+          "description": "为我们所有的解决方案提供持续的维护和支持"
+        }
       ]
     },
     "cta": {
@@ -390,10 +479,26 @@
       "title": "联系信息",
       "subtitle": "联系我们团队的多种方式",
       "items": [
-        { "title": "电子邮箱", "value": "info@kncinnovation.com", "description": "随时给我们发送电子邮件" },
-        { "title": "电话", "value": "+1 (201) 555-0123", "description": "在工作时间致电我们" },
-        { "title": "地点", "value": "新泽西州小渡口", "description": "远程优先，在东海岸设有办事处" },
         {
+          "id": "email",
+          "title": "电子邮箱",
+          "value": "info@kncinnovations.com",
+          "description": "随时给我们发送电子邮件"
+        },
+        {
+          "id": "phone",
+          "title": "电话",
+          "value": "+1 (732) 217-7702",
+          "description": "在工作时间致电我们"
+        },
+        {
+          "id": "location",
+          "title": "地点",
+          "value": "新泽西州小渡口",
+          "description": "远程优先，在东海岸设有办事处"
+        },
+        {
+          "id": "business-hours",
           "title": "工作时间",
           "value": "周一至周五上午9点至下午6点（东部标准时间）",
           "description": "我们会在24小时内回复"
@@ -441,20 +546,48 @@
       "title": "为什么选择我们？",
       "subtitle": "这不仅仅是一份工作，更是一份创新的事业",
       "benefits": [
-        { "title": "远程优先文化", "description": "在世界任何地方工作，享受灵活的工作时间和异步协作" },
-        { "title": "前沿项目", "description": "参与创新的区块链、AI和全栈项目，挑战极限" },
-        { "title": "学习与成长", "description": "持续的学习机会、会议参与和技能发展" },
-        { "title": "工作与生活平衡", "description": "灵活的时间表、无限带薪休假，注重结果而非工作时长" }
+        {
+          "id": "remote-first",
+          "title": "远程优先文化",
+          "description": "在世界任何地方工作，享受灵活的工作时间和异步协作"
+        },
+        {
+          "id": "cutting-edge",
+          "title": "前沿项目",
+          "description": "参与创新的区块链、AI和全栈项目，挑战极限"
+        },
+        {
+          "id": "learning-growth",
+          "title": "学习与成长",
+          "description": "持续的学习机会、会议参与和技能发展"
+        },
+        {
+          "id": "work-life-balance",
+          "title": "工作与生活平衡",
+          "description": "灵活的时间表、无限带薪休假，注重结果而非工作时长"
+        }
       ]
     },
     "values": {
       "title": "我们的价值观",
       "subtitle": "指导我们工作和文化的原则",
       "items": [
-        { "title": "创新第一", "description": "我们不断探索新技术，挑战可能性的极限" },
-        { "title": "卓越品质", "description": "我们在代码质量、安全性和用户体验方面保持最高标准" },
-        { "title": "协作精神", "description": "我们相信开放沟通、知识共享和团队成功" },
-        { "title": "客户影响力", "description": "我们专注于为客户提供真正的价值和变革性解决方案" }
+        {
+          "title": "创新第一",
+          "description": "我们不断探索新技术，挑战可能性的极限"
+        },
+        {
+          "title": "卓越品质",
+          "description": "我们在代码质量、安全性和用户体验方面保持最高标准"
+        },
+        {
+          "title": "协作精神",
+          "description": "我们相信开放沟通、知识共享和团队成功"
+        },
+        {
+          "title": "客户影响力",
+          "description": "我们专注于为客户提供真正的价值和变革性解决方案"
+        }
       ]
     },
     "open_roles": {
@@ -467,7 +600,12 @@
           "type": "全职",
           "location": "远程",
           "description": "领导区块链开发项目、智能合约架构和DeFi解决方案",
-          "requirements": ["5年以上区块链经验", "精通Solidity", "了解DeFi协议", "智能合约安全"],
+          "requirements": [
+            "5年以上区块链经验",
+            "精通Solidity",
+            "了解DeFi协议",
+            "智能合约安全"
+          ],
           "skills": ["Solidity", "Web3.js", "Hardhat", "DeFi", "智能合约"]
         },
         {
@@ -475,15 +613,31 @@
           "type": "全职",
           "location": "远程",
           "description": "开发和部署机器学习模型、计算机视觉系统和AI驱动的应用程序",
-          "requirements": ["3年以上ML经验", "精通Python", "深度学习框架", "模型部署"],
-          "skills": ["Python", "TensorFlow", "PyTorch", "计算机视觉", "自然语言处理"]
+          "requirements": [
+            "3年以上ML经验",
+            "精通Python",
+            "深度学习框架",
+            "模型部署"
+          ],
+          "skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "计算机视觉",
+            "自然语言处理"
+          ]
         },
         {
           "title": "全栈开发人员",
           "type": "全职",
           "location": "远程",
           "description": "构建可扩展的Web应用程序、API和云基础设施解决方案",
-          "requirements": ["4年以上全栈经验", "React/Node.js", "云平台", "数据库设计"],
+          "requirements": [
+            "4年以上全栈经验",
+            "React/Node.js",
+            "云平台",
+            "数据库设计"
+          ],
           "skills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
         },
         {
@@ -491,7 +645,12 @@
           "type": "合同",
           "location": "远程",
           "description": "管理云基础设施、CI/CD管道和部署自动化",
-          "requirements": ["3年以上DevOps经验", "AWS/Azure", "Docker/Kubernetes", "基础设施即代码"],
+          "requirements": [
+            "3年以上DevOps经验",
+            "AWS/Azure",
+            "Docker/Kubernetes",
+            "基础设施即代码"
+          ],
           "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
         }
       ]
@@ -500,10 +659,22 @@
       "title": "申请流程",
       "subtitle": "简单透明的招聘流程",
       "steps": [
-        { "title": "申请", "description": "发送您的简历和求职信至您感兴趣的职位" },
-        { "title": "筛选", "description": "初步电话/视频通话，讨论您的背景和职位" },
-        { "title": "技术面试", "description": "与职位相关的技术面试和/或编程挑战" },
-        { "title": "最终面试", "description": "与团队会面，讨论文化契合度、薪酬和后续步骤" }
+        {
+          "title": "申请",
+          "description": "发送您的简历和求职信至您感兴趣的职位"
+        },
+        {
+          "title": "筛选",
+          "description": "初步电话/视频通话，讨论您的背景和职位"
+        },
+        {
+          "title": "技术面试",
+          "description": "与职位相关的技术面试和/或编程挑战"
+        },
+        {
+          "title": "最终面试",
+          "description": "与团队会面，讨论文化契合度、薪酬和后续步骤"
+        }
       ]
     },
     "cta": {

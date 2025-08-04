@@ -1,19 +1,20 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu, Code } from "lucide-react"
-import { ThemeToggle } from "@/components/theme-toggle"
-import { LanguageSwitcher } from "@/components/language-switcher"
-import { useLocale } from "@/lib/i18n"
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu, Code } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { useLocale } from "@/lib/i18n";
 
 export function Navigation() {
-  const [isOpen, setIsOpen] = useState(false)
-  const pathname = usePathname()
-  const { t, isLoading } = useLocale()
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const { t, isLoading } = useLocale();
 
   // Show loading state while translations are loading
   if (isLoading) {
@@ -22,19 +23,17 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <Code className="h-5 w-5 text-white" />
-              </div>
+              <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded-lg animate-pulse" />
               <span className="font-bold text-xl">KNC Innovation</span>
             </Link>
             <div className="flex items-center space-x-2">
-              <div className="w-20 h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
-              <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+              <div className="w-20 h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse" />
+              <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded animate-pulse" />
             </div>
           </div>
         </div>
       </header>
-    )
+    );
   }
 
   const navigation = [
@@ -44,7 +43,7 @@ export function Navigation() {
     { name: t("nav.services"), href: "/services" },
     { name: t("nav.contact"), href: "/contact" },
     { name: t("nav.careers"), href: "/careers" },
-  ]
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -52,9 +51,13 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <Code className="h-5 w-5 text-white" />
-            </div>
+            <Image
+              src="/logo.png"
+              alt="KNC Innovation Logo"
+              width={64}
+              height={64}
+              className="rounded-lg"
+            />
             <span className="font-bold text-xl">KNC Innovation</span>
           </Link>
 
@@ -65,7 +68,9 @@ export function Navigation() {
                 key={item.href}
                 href={item.href}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
-                  pathname === item.href ? "text-primary" : "text-muted-foreground"
+                  pathname === item.href
+                    ? "text-primary"
+                    : "text-muted-foreground"
                 }`}
               >
                 {item.name}
@@ -100,7 +105,9 @@ export function Navigation() {
                       href={item.href}
                       onClick={() => setIsOpen(false)}
                       className={`text-lg font-medium transition-colors hover:text-primary ${
-                        pathname === item.href ? "text-primary" : "text-muted-foreground"
+                        pathname === item.href
+                          ? "text-primary"
+                          : "text-muted-foreground"
                       }`}
                     >
                       {item.name}
@@ -120,5 +127,5 @@ export function Navigation() {
         </div>
       </div>
     </header>
-  )
+  );
 }

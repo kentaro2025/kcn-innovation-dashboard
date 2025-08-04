@@ -1,0 +1,808 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "products": "Sản phẩm",
+    "services": "Dịch vụ",
+    "contact": "Liên hệ",
+    "careers": "Tuyển dụng",
+    "getStarted": "Bắt đầu"
+  },
+  "hero": {
+    "title": "Đổi mới Phần mềm, Blockchain và AI cho một Tương lai Thông minh hơn",
+    "subtitle": "KNC Innovation cung cấp các giải pháp công nghệ tiên tiến trong phát triển phần mềm, kỹ thuật blockchain và trí tuệ nhân tạo để chuyển đổi doanh nghiệp của bạn.",
+    "exploreProducts": "Khám phá Sản phẩm",
+    "getInTouch": "Liên hệ"
+  },
+  "stats": {
+    "yearsExperience": "Năm kinh nghiệm",
+    "productsBuilt": "Sản phẩm đã xây dựng",
+    "coreTechnologies": "Công nghệ cốt lõi",
+    "projectsDelivered": "Dự án đã giao"
+  },
+  "journey": {
+    "title": "Hành trình của chúng tôi",
+    "subtitle": "Từ công cụ tự động hóa đến đổi mới AI",
+    "milestones": {
+      "2018": {
+        "title": "Thành lập & Tự động hóa",
+        "description": "Xây dựng bot trang web và công cụ tự động hóa cho việc bán vé, cá cược, chơi game và mua sắm thương mại điện tử."
+      },
+      "2020": {
+        "title": "Chuyên môn hóa Blockchain",
+        "description": "Chuyên về kỹ thuật blockchain — dApps DeFi, trò chơi và thị trường NFT, dApps Solana và kiểm toán hợp đồng thông minh."
+      },
+      "2022": {
+        "title": "Hạ tầng đám mây",
+        "description": "Cung cấp dịch vụ hạ tầng đám mây AWS & Azure với các giải pháp kỹ thuật full-stack."
+      },
+      "2024": {
+        "title": "Tích hợp AI",
+        "description": "Mở rộng sang lập trình AI với các framework như TensorFlow, PyTorch, YOLO, và nhiều hơn nữa."
+      },
+      "2025": {
+        "title": "Đổi mới giao dịch",
+        "description": "Tập trung vào các bot giao dịch tiền điện tử dựa trên blockchain và các nền tảng giao dịch."
+      }
+    }
+  },
+  "featuredProducts": {
+    "title": "Sản phẩm nổi bật",
+    "subtitle": "Các giải pháp sáng tạo trên nhiều lĩnh vực",
+    "viewAll": "Xem tất cả sản phẩm"
+  },
+  "services": {
+    "title": "Dịch vụ của chúng tôi",
+    "subtitle": "Giải pháp công nghệ toàn diện cho các doanh nghiệp hiện đại",
+    "blockchain": {
+      "title": "Kỹ thuật Blockchain",
+      "description": "dApps DeFi, nền tảng NFT, hợp đồng thông minh và các giải pháp blockchain toàn diện"
+    },
+    "ai": {
+      "title": "Giải pháp AI/ML",
+      "description": "Triển khai TensorFlow, PyTorch, YOLO và các ứng dụng tùy chỉnh dựa trên AI"
+    },
+    "fullstack": {
+      "title": "Kỹ thuật Full Stack",
+      "description": "Hạ tầng đám mây AWS & Azure, phát triển full-stack và các giải pháp có thể mở rộng"
+    },
+    "learnMore": "Tìm hiểu thêm về Dịch vụ của chúng tôi"
+  },
+  "cta": {
+    "title": "Sẵn sàng đổi mới cùng nhau?",
+    "subtitle": "Hãy thảo luận về cách KNC Innovation có thể giúp chuyển đổi doanh nghiệp của bạn với các giải pháp công nghệ tiên tiến.",
+    "startProject": "Bắt đầu một dự án",
+    "learnAbout": "Tìm hiểu về chúng tôi"
+  },
+  "about_page": {
+    "hero": {
+      "title": "Xây dựng tương lai của công nghệ",
+      "subtitle": "Từ năm 2018, chúng tôi đã đi đầu trong đổi mới công nghệ, cung cấp các giải pháp tiên tiến trong phát triển phần mềm, kỹ thuật blockchain và trí tuệ nhân tạo."
+    },
+    "mission_vision": {
+      "mission": {
+        "title": "Sứ mệnh của chúng tôi",
+        "description": "Trao quyền cho các doanh nghiệp và cá nhân bằng các giải pháp công nghệ sáng tạo giải quyết các vấn đề trong thế giới thực. Chúng tôi cố gắng làm cho các công nghệ tiên tiến có thể truy cập, thiết thực và mang tính chuyển đổi cho khách hàng của chúng tôi trên tất cả các ngành."
+      },
+      "vision": {
+        "title": "Tầm nhìn của chúng tôi",
+        "description": "Trở thành đối tác công nghệ hàng đầu cho các doanh nghiệp tìm cách tận dụng sức mạnh của phần mềm, blockchain và AI. Chúng tôi hình dung một tương lai nơi công nghệ tích hợp liền mạch với nhu cầu của con người để tạo ra giá trị và cơ hội chưa từng có."
+      }
+    },
+    "values": {
+      "title": "Giá trị của chúng tôi",
+      "subtitle": "Những nguyên tắc chỉ đạo mọi việc chúng tôi làm",
+      "items": [
+        {
+          "id": "innovation",
+          "title": "Đổi mới đầu tiên",
+          "description": "Chúng tôi không ngừng đẩy lùi các giới hạn của những gì có thể với công nghệ, luôn đi trước các xu hướng của ngành và các giải pháp mới nổi."
+        },
+        {
+          "id": "client-success",
+          "title": "Thành công của khách hàng",
+          "description": "Thành công của khách hàng là thành công của chúng tôi. Chúng tôi xây dựng quan hệ đối tác lâu dài và cung cấp các giải pháp mang lại giá trị kinh doanh thực sự."
+        },
+        {
+          "id": "quality",
+          "title": "Chất lượng xuất sắc",
+          "description": "Chúng tôi duy trì các tiêu chuẩn cao nhất trong mọi việc chúng tôi làm, từ chất lượng mã đến dịch vụ khách hàng và giao dự án."
+        }
+      ]
+    },
+    "leadership": {
+      "title": "Đội ngũ lãnh đạo",
+      "subtitle": "Gặp gỡ những người có tầm nhìn đằng sau KNC Innovation",
+      "members": [
+        {
+          "name": "HIMURO KYUOSUKE",
+          "role": "Giám đốc điều hành",
+          "image": "/profile1.png?height=64&width=64",
+          "bio": "Nhà lãnh đạo có tầm nhìn với kinh nghiệm sâu rộng về đổi mới công nghệ và chiến lược kinh doanh. Himuro đã thúc đẩy sự phát triển của KNC Innovation kể từ khi thành lập vào năm 2018, tập trung vào các công nghệ mới nổi và mở rộng thị trường.",
+          "expertise": [
+            "Lập kế hoạch chiến lược",
+            "Phát triển kinh doanh",
+            "Tầm nhìn công nghệ",
+            "Lãnh đạo nhóm"
+          ]
+        },
+        {
+          "name": "CHANTHAI SYVONGSA",
+          "role": "Giám đốc công nghệ",
+          "image": "/profile2.png?height=64&width=64",
+          "bio": "Kiến trúc sư kỹ thuật và nhà lãnh đạo kỹ thuật với chuyên môn sâu về blockchain, AI và công nghệ đám mây. Chanthai giám sát tất cả các hoạt động phát triển kỹ thuật và đảm bảo các giải pháp của chúng tôi đáp ứng các tiêu chuẩn cao nhất.",
+          "expertise": [
+            "Phát triển Blockchain",
+            "Kỹ thuật AI/ML",
+            "Kiến trúc đám mây",
+            "Lãnh đạo kỹ thuật"
+          ]
+        },
+        {
+          "name": "Alexander Moreau",
+          "role": "Phó chủ tịch",
+          "image": "/profile3.png?height=64&width=64",
+          "bio": "Phó chủ tịch chiến lược và định hướng kết quả với thành tích đã được chứng minh trong việc mở rộng sự hiện diện trên thị trường và thúc đẩy các mối quan hệ đối tác quan trọng. Isabelle lãnh đạo các hoạt động toàn cầu và chiến lược của công ty chúng tôi.",
+          "expertise": [
+            "Hoạt động toàn cầu",
+            "Mở rộng thị trường",
+            "Chiến lược công ty",
+            "Phát triển quan hệ đối tác"
+          ]
+        },
+        {
+          "name": "Yuki Tanaka",
+          "role": "Nhà tiếp thị châu Á",
+          "image": "/profile4.png?height=64&width=64",
+          "bio": "Chuyên gia tiếp thị năng động chuyên về bối cảnh công nghệ châu Á. Yuki phát triển và thực hiện các chiến dịch tiếp thị sáng tạo gây được tiếng vang với các đối tượng đa dạng trong khu vực.",
+          "expertise": [
+            "Tiếp thị kỹ thuật số",
+            "Chiến lược thương hiệu",
+            "Nghiên cứu thị trường",
+            "Tạo nội dung"
+          ]
+        },
+        {
+          "name": "Lý Vĩ",
+          "role": "Trưởng nhóm phát triển",
+          "image": "/profile5.png?height=64&width=64",
+          "bio": "Trưởng nhóm phát triển giàu kinh nghiệm với niềm đam mê xây dựng các giải pháp phần mềm mạnh mẽ và có thể mở rộng. Lý Vĩ hướng dẫn đội ngũ phát triển của chúng tôi trong việc tạo ra các sản phẩm chất lượng cao từ ý tưởng đến triển khai.",
+          "expertise": [
+            "Kiến trúc phần mềm",
+            "Phát triển Full-Stack",
+            "Phương pháp Agile",
+            "Cố vấn nhóm"
+          ]
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Hành trình của chúng tôi",
+      "subtitle": "Bảy năm đổi mới và phát triển",
+      "milestones": [
+        {
+          "year": "2018",
+          "title": "Công ty được thành lập",
+          "description": "KNC Innovation được thành lập với trọng tâm là tự động hóa và phát triển bot",
+          "achievements": [
+            "Ra mắt các công cụ tự động hóa đầu tiên",
+            "Thiết lập cơ sở khách hàng ban đầu"
+          ]
+        },
+        {
+          "year": "2020",
+          "title": "Mở rộng Blockchain",
+          "description": "Chuyển hướng sang công nghệ blockchain và các giải pháp DeFi",
+          "achievements": [
+            "Phát triển dApps DeFi",
+            "Tạo thị trường NFT",
+            "Dịch vụ kiểm toán hợp đồng thông minh"
+          ]
+        },
+        {
+          "year": "2022",
+          "title": "Hạ tầng đám mây",
+          "description": "Thêm các dịch vụ đám mây toàn diện vào danh mục đầu tư của chúng tôi",
+          "achievements": [
+            "Quan hệ đối tác AWS & Azure",
+            "Mở rộng đội ngũ kỹ thuật full-stack",
+            "Thu hút khách hàng doanh nghiệp"
+          ]
+        },
+        {
+          "year": "2024",
+          "title": "Tích hợp AI",
+          "description": "Tích hợp khả năng AI và học máy",
+          "achievements": [
+            "Triển khai TensorFlow & PyTorch",
+            "Ra mắt sản phẩm dựa trên AI",
+            "Dịch vụ tư vấn ML"
+          ]
+        },
+        {
+          "year": "2025",
+          "title": "Đổi mới giao dịch",
+          "description": "Tập trung vào các nền tảng giao dịch tiên tiến và tự động hóa",
+          "achievements": [
+            "Phát triển bot giao dịch tiền điện tử",
+            "Thuật toán giao dịch tiên tiến",
+            "Tích hợp nền tảng"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Tham gia hành trình đổi mới của chúng tôi",
+      "subtitle": "Cho dù bạn đang tìm kiếm các giải pháp tiên tiến hay muốn trở thành một phần của đội ngũ của chúng tôi, chúng tôi rất mong được nghe từ bạn.",
+      "button1": "Bắt đầu một cuộc trò chuyện",
+      "button2": "Xem các vị trí tuyển dụng"
+    }
+  },
+  "products_page": {
+    "hero": {
+      "title": "Trưng bày sản phẩm của chúng tôi",
+      "subtitle": "Khám phá danh mục toàn diện của chúng tôi về các giải pháp phần mềm sáng tạo trên các lĩnh vực AI/ML, blockchain, nền tảng web và công nghệ truyền thông."
+    },
+    "products": [
+      {
+        "id": "loveconnect",
+        "name": "LoveConnect",
+        "description": "Ứng dụng hẹn hò hiện đại với các thuật toán mai mối tiên tiến và tính năng nhắn tin thời gian thực",
+        "category": "Ứng dụng di động",
+        "features": [
+          "Mai mối bằng AI",
+          "Trò chuyện thời gian thực",
+          "Cuộc gọi video",
+          "Xác minh hồ sơ"
+        ]
+      },
+      {
+        "id": "ai-movie-generator",
+        "name": "AI Movie Generator",
+        "description": "Công cụ hỗ trợ AI để tạo phim và nội dung video với chỉnh sửa và hiệu ứng tự động",
+        "category": "AI/ML",
+        "features": [
+          "Tạo video bằng AI",
+          "Chỉnh sửa tự động",
+          "Hiệu ứng tùy chỉnh",
+          "Phân tích kịch bản"
+        ]
+      },
+      {
+        "id": "cleverchat",
+        "name": "CleverChat",
+        "description": "Chatbot thông minh dựa trên GPT cho dịch vụ khách hàng với xử lý ngôn ngữ tự nhiên",
+        "category": "AI/ML",
+        "features": [
+          "Xử lý ngôn ngữ tự nhiên",
+          "Hỗ trợ đa ngôn ngữ",
+          "API tích hợp",
+          "Bảng điều khiển phân tích"
+        ]
+      },
+      {
+        "id": "modernshop",
+        "name": "ModernShop",
+        "description": "Nền tảng thương mại điện tử đầy đủ tính năng với giao diện người dùng hiện đại và các công cụ quản lý toàn diện",
+        "category": "Nền tảng Web",
+        "features": [
+          "Quản lý sản phẩm",
+          "Xử lý thanh toán",
+          "Theo dõi hàng tồn kho",
+          "Phân tích"
+        ]
+      },
+      {
+        "id": "basistradingbot",
+        "name": "BasisTradingBot",
+        "description": "Bot giao dịch tiền điện tử tự động với các chiến lược tiên tiến và quản lý rủi ro",
+        "category": "Blockchain",
+        "features": [
+          "Giao dịch tự động",
+          "Quản lý rủi ro",
+          "Nhiều sàn giao dịch",
+          "Kiểm tra lại chiến lược"
+        ]
+      },
+      {
+        "id": "onmeet",
+        "name": "OnMeet",
+        "description": "Nền tảng họp trực tuyến và hội nghị truyền hình với chia sẻ màn hình và ghi âm",
+        "category": "Truyền thông",
+        "features": [
+          "Cuộc gọi video HD",
+          "Chia sẻ màn hình",
+          "Ghi âm cuộc họp",
+          "Tích hợp trò chuyện"
+        ]
+      },
+      {
+        "id": "pokercoreplugins",
+        "name": "PokerCorePlugins",
+        "description": "Plugin nền tảng poker tiên tiến với quản lý giải đấu và phân tích",
+        "category": "Trò chơi",
+        "features": [
+          "Quản lý giải đấu",
+          "Phân tích người chơi",
+          "Chế độ chơi tùy chỉnh",
+          "Cập nhật thời gian thực"
+        ]
+      },
+      {
+        "id": "solsniper",
+        "name": "SolSniper",
+        "description": "Bot bắn tỉa Solana để đúc và giao dịch NFT với giám sát tiên tiến",
+        "category": "Blockchain",
+        "features": [
+          "Bắn tỉa NFT",
+          "Giám sát thời gian thực",
+          "Tự động đặt giá",
+          "Theo dõi danh mục đầu tư"
+        ]
+      },
+      {
+        "id": "microsip",
+        "name": "MicroSIP",
+        "description": "Hệ thống softphone VoIP nhẹ với âm thanh HD và quản lý cuộc gọi",
+        "category": "Truyền thông",
+        "features": [
+          "Cuộc gọi âm thanh HD",
+          "Quản lý cuộc gọi",
+          "Tích hợp danh bạ",
+          "Hỗ trợ nhiều tài khoản"
+        ]
+      },
+      {
+        "id": "wowsameet",
+        "name": "WowsaMeet",
+        "description": "Nền tảng hội nghị truyền hình và âm thanh với khả năng phát sóng",
+        "category": "Truyền thông",
+        "features": [
+          "Phát trực tiếp",
+          "Tổ chức hội nghị",
+          "Phát sóng",
+          "Tính năng tương tác"
+        ]
+      }
+    ],
+    "stats": {
+      "products": "Sản phẩm đã xây dựng",
+      "categories": "Danh mục",
+      "technologies": "Công nghệ",
+      "openSource": "Mã nguồn mở"
+    },
+    "cta": {
+      "title": "Cần một giải pháp tùy chỉnh?",
+      "subtitle": "Sản phẩm của chúng tôi thể hiện năng lực của chúng tôi, nhưng chúng tôi chuyên xây dựng các giải pháp tùy chỉnh phù hợp với nhu cầu và yêu cầu cụ thể của bạn.",
+      "button1": "Thảo luận về dự án của bạn",
+      "button2": "Xem dịch vụ của chúng tôi"
+    }
+  },
+  "services_page": {
+    "hero": {
+      "title": "Giải pháp công nghệ toàn diện",
+      "subtitle": "Từ kỹ thuật blockchain đến triển khai AI, chúng tôi cung cấp các giải pháp công nghệ từ đầu đến cuối thúc đẩy sự đổi mới và tăng trưởng kinh doanh."
+    },
+    "services": [
+      {
+        "id": "blockchain-engineering",
+        "title": "Kỹ thuật Blockchain",
+        "description": "Các giải pháp blockchain toàn diện từ hợp đồng thông minh đến phát triển dApp đầy đủ",
+        "features": [
+          "Phát triển dApp DeFi",
+          "Trò chơi & Thị trường NFT",
+          "Tạo dApp Solana",
+          "Phát triển Hợp đồng thông minh",
+          "Kiểm toán Hợp đồng thông minh",
+          "Thiết kế Tokenomics",
+          "Giải pháp chuỗi chéo",
+          "Tư vấn Blockchain"
+        ],
+        "projects": [
+          "Nền tảng giao dịch DeFi",
+          "Thị trường NFT",
+          "Kinh tế mã thông báo trò chơi",
+          "Cầu chuỗi chéo"
+        ],
+        "color": "blue"
+      },
+      {
+        "id": "ai-ml-solutions",
+        "title": "Giải pháp AI/ML",
+        "description": "Triển khai trí tuệ nhân tạo và học máy tiên tiến",
+        "features": [
+          "Phát triển mô hình AI tùy chỉnh",
+          "Giải pháp thị giác máy tính",
+          "Xử lý ngôn ngữ tự nhiên",
+          "Phân tích dự đoán",
+          "Tự động hóa dựa trên AI",
+          "Tư vấn học máy",
+          "Đào tạo & Tối ưu hóa mô hình",
+          "Dịch vụ tích hợp AI"
+        ],
+        "projects": [
+          "Trình tạo phim AI",
+          "Bot CleverChat GPT",
+          "Hệ thống thị giác máy tính",
+          "Mô hình giao dịch dự đoán"
+        ],
+        "color": "purple"
+      },
+      {
+        "id": "full-stack-cloud-engineering",
+        "title": "Kỹ thuật Full Stack & Đám mây",
+        "description": "Các ứng dụng web có thể mở rộng và các giải pháp hạ tầng đám mây",
+        "features": [
+          "Phát triển web Full Stack",
+          "Thiết kế kiến trúc đám mây",
+          "Triển khai AWS & Azure",
+          "Kiến trúc microservices",
+          "Phát triển & Tích hợp API",
+          "Thiết kế & Tối ưu hóa cơ sở dữ liệu",
+          "Đường ống DevOps & CI/CD",
+          "Tối ưu hóa hiệu suất"
+        ],
+        "projects": [
+          "Thương mại điện tử ModernShop",
+          "Nền tảng video OnMeet",
+          "Dự án di chuyển đám mây",
+          "Cổng API doanh nghiệp"
+        ],
+        "color": "green"
+      },
+      {
+        "id": "smart-contract-audits",
+        "title": "Kiểm toán Hợp đồng thông minh",
+        "description": "Kiểm toán bảo mật toàn diện và đánh giá lỗ hổng",
+        "features": [
+          "Đánh giá lỗ hổng bảo mật",
+          "Xem xét & Phân tích mã",
+          "Tối ưu hóa gas",
+          "Xác minh tuân thủ",
+          "Kiểm tra thâm nhập",
+          "Báo cáo đánh giá rủi ro",
+          "Hướng dẫn khắc phục",
+          "Giám sát bảo mật liên tục"
+        ],
+        "projects": [
+          "Kiểm toán giao thức DeFi",
+          "Xem xét hợp đồng NFT",
+          "Kiểm toán quản trị DAO",
+          "Phân tích hợp đồng mã thông báo"
+        ],
+        "color": "red"
+      },
+      {
+        "id": "trading-bots-platforms",
+        "title": "Bot & Nền tảng giao dịch",
+        "description": "Các giải pháp giao dịch tự động và phát triển nền tảng",
+        "features": [
+          "Phát triển bot giao dịch tiền điện tử",
+          "Chiến lược giao dịch thuật toán",
+          "Hệ thống quản lý danh mục đầu tư",
+          "Công cụ quản lý rủi ro",
+          "Tích hợp dữ liệu thị trường",
+          "Framework kiểm tra lại",
+          "Tích hợp API sàn giao dịch",
+          "Phát triển nền tảng giao dịch"
+        ],
+        "projects": [
+          "BasisTradingBot",
+          "Bot SolSniper NFT",
+          "Kinh doanh chênh lệch giá đa sàn",
+          "Bảng điều khiển phân tích danh mục đầu tư"
+        ],
+        "color": "yellow"
+      }
+    ],
+    "process": {
+      "title": "Quy trình phát triển của chúng tôi",
+      "subtitle": "Một phương pháp đã được chứng minh đảm bảo giao dự án thành công",
+      "steps": [
+        {
+          "title": "Khám phá & Lập kế hoạch",
+          "description": "Chúng tôi phân tích yêu cầu của bạn, xác định phạm vi dự án và tạo một lộ trình chi tiết."
+        },
+        {
+          "title": "Thiết kế & Kiến trúc",
+          "description": "Đội ngũ của chúng tôi thiết kế kiến trúc hệ thống và tạo các thông số kỹ thuật."
+        },
+        {
+          "title": "Phát triển & Thử nghiệm",
+          "description": "Chúng tôi xây dựng giải pháp của bạn bằng các phương pháp hay nhất với thử nghiệm liên tục và đảm bảo chất lượng."
+        },
+        {
+          "title": "Triển khai & Hỗ trợ",
+          "description": "Chúng tôi triển khai giải pháp của bạn và cung cấp hỗ trợ và bảo trì liên tục."
+        }
+      ]
+    },
+    "why_choose_us": {
+      "title": "Tại sao chọn KNC Innovation?",
+      "subtitle": "Điều gì làm chúng tôi khác biệt trong bối cảnh công nghệ",
+      "reasons": [
+        {
+          "title": "Hơn 7 năm kinh nghiệm",
+          "description": "Thành tích đã được chứng minh từ năm 2018 trên nhiều lĩnh vực công nghệ"
+        },
+        {
+          "title": "Chuyên môn Full-Stack",
+          "description": "Các giải pháp từ đầu đến cuối từ frontend đến tích hợp blockchain và AI"
+        },
+        {
+          "title": "Đảm bảo chất lượng",
+          "description": "Kiểm tra nghiêm ngặt và kiểm toán bảo mật cho tất cả các sản phẩm của chúng tôi"
+        },
+        {
+          "title": "Hỗ trợ liên tục",
+          "description": "Bảo trì và hỗ trợ liên tục cho tất cả các giải pháp của chúng tôi"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sẵn sàng bắt đầu dự án của bạn?",
+      "subtitle": "Hãy thảo luận về cách chuyên môn của chúng tôi có thể giúp hiện thực hóa tầm nhìn công nghệ của bạn. Liên hệ với chúng tôi để được tư vấn miễn phí và đánh giá dự án.",
+      "button1": "Nhận tư vấn miễn phí",
+      "button2": "Xem công việc của chúng tôi"
+    }
+  },
+  "contact_page": {
+    "hero": {
+      "title": "Hãy cùng nhau xây dựng điều tuyệt vời",
+      "subtitle": "Sẵn sàng biến ý tưởng của bạn thành hiện thực? Liên hệ với chúng tôi để thảo luận về dự án của bạn và khám phá cách KNC Innovation có thể giúp bạn đạt được các mục tiêu công nghệ của mình."
+    },
+    "form": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "subtitle": "Điền vào biểu mẫu dưới đây và chúng tôi sẽ liên hệ lại với bạn trong vòng 24 giờ.",
+      "name": "Họ và tên",
+      "name_placeholder": "Nguyễn Văn A",
+      "email": "Địa chỉ email",
+      "email_placeholder": "nguyenvana@example.com",
+      "company": "Công ty",
+      "company_placeholder": "Công ty của bạn",
+      "service": "Dịch vụ cần thiết",
+      "service_placeholder": "Chọn một dịch vụ",
+      "budget": "Ngân sách dự án",
+      "budget_placeholder": "Chọn khoảng ngân sách",
+      "message": "Chi tiết dự án",
+      "message_placeholder": "Hãy cho chúng tôi biết về dự án, yêu cầu, thời gian và bất kỳ công nghệ cụ thể nào bạn muốn chúng tôi sử dụng...",
+      "button_send": "Gửi tin nhắn",
+      "button_sending": "Đang gửi tin nhắn...",
+      "alert_success": "Cảm ơn bạn đã gửi tin nhắn! Chúng tôi sẽ liên hệ lại với bạn trong vòng 24 giờ."
+    },
+    "info": {
+      "title": "Thông tin liên hệ",
+      "subtitle": "Nhiều cách để liên hệ với đội ngũ của chúng tôi",
+      "items": [
+        {
+          "id": "email",
+          "title": "Email",
+          "value": "info@kncinnovations.com",
+          "description": "Gửi email cho chúng tôi bất cứ lúc nào"
+        },
+        {
+          "id": "phone",
+          "title": "Điện thoại",
+          "value": "+1 (732) 217-7702",
+          "description": "Gọi cho chúng tôi trong giờ làm việc"
+        },
+        {
+          "id": "location",
+          "title": "Địa điểm",
+          "value": "Little Ferry, NJ",
+          "description": "Làm việc từ xa là chính với sự hiện diện ở Bờ Đông"
+        },
+        {
+          "id": "business-hours",
+          "title": "Giờ làm việc",
+          "value": "Thứ Hai-Thứ Sáu 9AM-6PM EST",
+          "description": "Chúng tôi trả lời trong vòng 24 giờ"
+        }
+      ]
+    },
+    "social": {
+      "title": "Theo dõi chúng tôi",
+      "subtitle": "Cập nhật các dự án mới nhất của chúng tôi"
+    },
+    "immediate_help": {
+      "title": "Cần trợ giúp ngay lập tức?",
+      "description": "Đối với các yêu cầu khẩn cấp hoặc câu hỏi nhanh, hãy liên hệ trực tiếp:",
+      "button": "Gửi email trực tiếp cho chúng tôi"
+    },
+    "faq": {
+      "title": "Các câu hỏi thường gặp",
+      "subtitle": "Câu trả lời nhanh cho các câu hỏi phổ biến",
+      "items": [
+        {
+          "question": "Thời gian thực hiện dự án điển hình của bạn là gì?",
+          "answer": "Thời gian thực hiện dự án thay đổi tùy theo độ phức tạp. Các ứng dụng đơn giản mất 4-8 tuần, trong khi các giải pháp blockchain hoặc AI phức tạp có thể mất 3-6 tháng. Chúng tôi cung cấp thời gian chi tiết trong buổi tư vấn ban đầu."
+        },
+        {
+          "question": "Bạn có làm việc với các công ty khởi nghiệp không?",
+          "answer": "Chúng tôi thích làm việc với các công ty khởi nghiệp và có các mô hình hợp tác linh hoạt. Chúng tôi có thể làm việc với các thỏa thuận vốn chủ sở hữu, phát triển theo giai đoạn hoặc các phương pháp tập trung vào MVP để phù hợp với ngân sách và thời gian của bạn."
+        },
+        {
+          "question": "Bạn chuyên về những công nghệ nào?",
+          "answer": "Chúng tôi chuyên về blockchain (Solidity, Rust, Solana), AI/ML (TensorFlow, PyTorch), phát triển full-stack (React, Node.js, Python) và hạ tầng đám mây (AWS, Azure). Kiểm tra trang dịch vụ của chúng tôi để biết danh sách đầy đủ."
+        },
+        {
+          "question": "Bạn có cung cấp hỗ trợ liên tục không?",
+          "answer": "Có, chúng tôi cung cấp các gói hỗ trợ và bảo trì toàn diện. Điều này bao gồm sửa lỗi, cập nhật bảo mật, tối ưu hóa hiệu suất và cải tiến tính năng dựa trên nhu cầu của bạn."
+        }
+      ]
+    }
+  },
+  "careers_page": {
+    "hero": {
+      "title": "Xây dựng tương lai với KNC Innovation",
+      "subtitle": "Tham gia một đội ngũ các nhà đổi mới đầy nhiệt huyết làm việc trên các giải pháp blockchain, AI và full-stack tiên tiến. Chúng tôi luôn tìm kiếm những cá nhân tài năng chia sẻ tầm nhìn của chúng tôi về sự xuất sắc công nghệ."
+    },
+    "why_work_with_us": {
+      "title": "Tại sao làm việc với chúng tôi?",
+      "subtitle": "Không chỉ là một công việc - đó là một sự nghiệp trong đổi mới",
+      "benefits": [
+        {
+          "id": "remote-first",
+          "title": "Văn hóa làm việc từ xa",
+          "description": "Làm việc từ bất cứ đâu trên thế giới với giờ làm việc linh hoạt và hợp tác không đồng bộ"
+        },
+        {
+          "id": "cutting-edge",
+          "title": "Các dự án tiên tiến",
+          "description": "Làm việc trên các dự án blockchain, AI và full-stack sáng tạo vượt qua các giới hạn"
+        },
+        {
+          "id": "learning-growth",
+          "title": "Học hỏi & Phát triển",
+          "description": "Cơ hội học hỏi liên tục, tham dự hội nghị và phát triển kỹ năng"
+        },
+        {
+          "id": "work-life-balance",
+          "title": "Cân bằng công việc-cuộc sống",
+          "description": "Lịch làm việc linh hoạt, nghỉ phép có lương không giới hạn và tập trung vào kết quả hơn là số giờ"
+        }
+      ]
+    },
+    "values": {
+      "title": "Giá trị của chúng tôi",
+      "subtitle": "Những nguyên tắc chỉ đạo công việc và văn hóa của chúng tôi",
+      "items": [
+        {
+          "title": "Đổi mới đầu tiên",
+          "description": "Chúng tôi không ngừng khám phá các công nghệ mới và đẩy lùi các giới hạn của những gì có thể"
+        },
+        {
+          "title": "Chất lượng xuất sắc",
+          "description": "Chúng tôi duy trì các tiêu chuẩn cao nhất về chất lượng mã, bảo mật và trải nghiệm người dùng"
+        },
+        {
+          "title": "Tinh thần hợp tác",
+          "description": "Chúng tôi tin vào giao tiếp cởi mở, chia sẻ kiến thức và thành công của nhóm"
+        },
+        {
+          "title": "Tác động đến khách hàng",
+          "description": "Chúng tôi tập trung vào việc cung cấp giá trị thực và các giải pháp mang tính chuyển đổi cho khách hàng của chúng tôi"
+        }
+      ]
+    },
+    "open_roles": {
+      "title": "Các vị trí đang tuyển",
+      "subtitle": "Cơ hội hiện tại để tham gia vào đội ngũ của chúng tôi",
+      "button_apply": "Ứng tuyển ngay",
+      "roles": [
+        {
+          "title": "Nhà phát triển Blockchain cao cấp",
+          "type": "Toàn thời gian",
+          "location": "Từ xa",
+          "description": "Dẫn dắt các dự án phát triển blockchain, kiến trúc hợp đồng thông minh và các giải pháp DeFi",
+          "requirements": [
+            "Hơn 5 năm kinh nghiệm về blockchain",
+            "Chuyên môn về Solidity",
+            "Kiến thức về giao thức DeFi",
+            "Bảo mật hợp đồng thông minh"
+          ],
+          "skills": [
+            "Solidity",
+            "Web3.js",
+            "Hardhat",
+            "DeFi",
+            "Hợp đồng thông minh"
+          ]
+        },
+        {
+          "title": "Kỹ sư AI/ML",
+          "type": "Toàn thời gian",
+          "location": "Từ xa",
+          "description": "Phát triển và triển khai các mô hình học máy, hệ thống thị giác máy tính và các ứng dụng dựa trên AI",
+          "requirements": [
+            "Hơn 3 năm kinh nghiệm về ML",
+            "Chuyên môn về Python",
+            "Framework học sâu",
+            "Triển khai mô hình"
+          ],
+          "skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Thị giác máy tính",
+            "NLP"
+          ]
+        },
+        {
+          "title": "Nhà phát triển Full Stack",
+          "type": "Toàn thời gian",
+          "location": "Từ xa",
+          "description": "Xây dựng các ứng dụng web có thể mở rộng, API và các giải pháp hạ tầng đám mây",
+          "requirements": [
+            "Hơn 4 năm kinh nghiệm full-stack",
+            "React/Node.js",
+            "Nền tảng đám mây",
+            "Thiết kế cơ sở dữ liệu"
+          ],
+          "skills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+        },
+        {
+          "title": "Kỹ sư DevOps",
+          "type": "Hợp đồng",
+          "location": "Từ xa",
+          "description": "Quản lý hạ tầng đám mây, đường ống CI/CD và tự động hóa triển khai",
+          "requirements": [
+            "Hơn 3 năm kinh nghiệm DevOps",
+            "AWS/Azure",
+            "Docker/Kubernetes",
+            "Infrastructure as Code"
+          ],
+          "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
+        }
+      ]
+    },
+    "application_process": {
+      "title": "Quy trình ứng tuyển",
+      "subtitle": "Quy trình tuyển dụng đơn giản và minh bạch",
+      "steps": [
+        {
+          "title": "Ứng tuyển",
+          "description": "Gửi CV và thư xin việc của bạn cho vị trí bạn quan tâm"
+        },
+        {
+          "title": "Sàng lọc",
+          "description": "Cuộc gọi điện thoại/video ban đầu để thảo luận về lý lịch và vai trò của bạn"
+        },
+        {
+          "title": "Kỹ thuật",
+          "description": "Phỏng vấn kỹ thuật và/hoặc thử thách viết mã liên quan đến vị trí"
+        },
+        {
+          "title": "Cuối cùng",
+          "description": "Gặp gỡ đội ngũ và thảo luận về sự phù hợp văn hóa, lương thưởng và các bước tiếp theo"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Không thấy vai trò hoàn hảo?",
+      "subtitle": "Chúng tôi luôn tìm kiếm những tài năng xuất sắc. Nếu bạn đam mê đổi mới và muốn làm việc với các công nghệ tiên tiến, chúng tôi rất mong được nghe từ bạn.",
+      "button1": "Gửi CV của bạn cho chúng tôi",
+      "button2": "Liên hệ"
+    }
+  },
+  "common": {
+    "readMore": "Đọc thêm",
+    "learnMore": "Tìm hiểu thêm",
+    "getStarted": "Bắt đầu",
+    "contactUs": "Liên hệ chúng tôi",
+    "viewAll": "Xem tất cả",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "success": "Thành công",
+    "code": "Mã",
+    "demo": "Demo",
+    "docs": "Tài liệu",
+    "expertise": "Chuyên môn:",
+    "key_features": "Các tính năng chính:",
+    "technologies": "Công nghệ:",
+    "key_services": "Dịch vụ chính:",
+    "recent_projects": "Các dự án gần đây",
+    "requirements": "Yêu cầu:",
+    "key_skills": "Kỹ năng chính:"
+  }
+}

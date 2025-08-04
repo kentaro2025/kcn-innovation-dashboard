@@ -12,21 +12,11 @@ import { GradientText } from "@/components/gradient-text"
 import { useLocale } from "@/lib/i18n"
 
 const serviceIcons: { [key: string]: React.ElementType } = {
-  "Blockchain Engineering": Code,
-  "AI/ML Solutions": Cpu,
-  "Full Stack & Cloud Engineering": Zap,
-  "Smart Contract Audits": Shield,
-  "Trading Bots & Platforms": TrendingUp,
-  区块链工程: Code,
-  "AI/ML解决方案": Cpu,
-  全栈和云工程: Zap,
-  智能合约审计: Shield,
-  交易机器人和平台: TrendingUp,
-  ブロックチェーンエンジニアリング: Code,
-  "AI/MLソリューション": Cpu,
-  "フルスタック＆クラウドエンジニアリング": Zap,
-  スマートコントラクト監査: Shield,
-  "取引ボット＆プラットフォーム": TrendingUp,
+  "blockchain-engineering": Code,
+  "ai-ml-solutions": Cpu,
+  "full-stack-cloud-engineering": Zap,
+  "smart-contract-audits": Shield,
+  "trading-bots-platforms": TrendingUp,
 }
 
 const colorClasses: { [key: string]: { bg: string; text: string; darkBg: string; darkText: string } } = {
@@ -98,7 +88,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
             {services.map((service: any, index: number) => {
-              const Icon = serviceIcons[service.title] || Code
+              const Icon = serviceIcons[service.id] || Code
               const colors = colorClasses[service.color] || colorClasses.blue
               return (
                 <div

@@ -7,11 +7,15 @@ import { type Locale, locales } from "./i18n-config"
 import enTranslations from "../locales/en.json"
 import zhTranslations from "../locales/zh.json"
 import jaTranslations from "../locales/ja.json"
+import frTranslations from "../locales/fr.json"
+import viTranslations from "../locales/vi.json"
 
 const translations: Record<Locale, any> = {
   en: enTranslations,
   zh: zhTranslations,
   ja: jaTranslations,
+  fr: frTranslations,
+  vi: viTranslations,
 }
 
 interface I18nContextType {

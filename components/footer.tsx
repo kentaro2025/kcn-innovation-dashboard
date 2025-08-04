@@ -1,5 +1,13 @@
-import Link from "next/link"
-import { Code, Mail, Github, Linkedin, Twitter, MapPin, Phone } from "lucide-react"
+import Link from "next/link";
+import {
+  Code,
+  Mail,
+  Github,
+  Linkedin,
+  Twitter,
+  MapPin,
+  Phone,
+} from "lucide-react";
 
 const footerLinks = {
   company: [
@@ -26,13 +34,17 @@ const footerLinks = {
     { name: "Case Studies", href: "/case-studies" },
     { name: "Support", href: "/support" },
   ],
-}
+};
 
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/kncinnovation", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com/company/kncinnovation", icon: Linkedin },
+  {
+    name: "LinkedIn",
+    href: "https://linkedin.com/company/kncinnovation",
+    icon: Linkedin,
+  },
   { name: "Twitter", href: "https://twitter.com/kncinnovation", icon: Twitter },
-]
+];
 
 export function Footer() {
   return (
@@ -48,17 +60,17 @@ export function Footer() {
               <span className="font-bold text-xl">KNC Innovation</span>
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">
-              Innovating software, blockchain, and AI solutions for a smarter future. Building cutting-edge technology
-              since 2018.
+              Innovating software, blockchain, and AI solutions for a smarter
+              future. Building cutting-edge technology since 2018.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-gray-300">
                 <Mail className="h-4 w-4" />
-                <span>info@kncinnovation.com</span>
+                <span>info@kncinnovations.com</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Phone className="h-4 w-4" />
-                <span>+1 (201) 555-0123</span>
+                <span>+1 (732) 217-7702</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <MapPin className="h-4 w-4" />
@@ -73,7 +85,10 @@ export function Footer() {
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-gray-300 hover:text-white transition-colors">
+                  <Link
+                    href={link.href}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -86,7 +101,10 @@ export function Footer() {
             <ul className="space-y-2">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-gray-300 hover:text-white transition-colors">
+                  <Link
+                    href={link.href}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -99,7 +117,10 @@ export function Footer() {
             <ul className="space-y-2">
               {footerLinks.products.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-gray-300 hover:text-white transition-colors">
+                  <Link
+                    href={link.href}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -112,7 +133,10 @@ export function Footer() {
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-gray-300 hover:text-white transition-colors">
+                  <Link
+                    href={link.href}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -123,7 +147,9 @@ export function Footer() {
 
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2025 KNC Innovation. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">
+            © 2025 KNC Innovation. All rights reserved.
+          </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             {socialLinks.map((social) => (
               <Link
@@ -139,5 +165,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

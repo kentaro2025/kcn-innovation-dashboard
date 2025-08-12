@@ -43,7 +43,7 @@ const socialLinks = [
     href: "https://linkedin.com/company/kncinnovation",
     icon: Linkedin,
   },
-  { name: "Twitter", href: "https://twitter.com/kncinnovation", icon: Twitter },
+  { name: "X", href: "https://x.com/kncinnovation", icon: Twitter },
 ];
 
 export function Footer() {

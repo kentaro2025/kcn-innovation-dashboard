@@ -50,8 +50,8 @@ const socialLinks = [
   },
   {
     icon: Twitter,
-    name: "Twitter",
-    url: "https://twitter.com/kncinnovation",
+    name: "X",
+    url: "https://x.com/kncinnovation",
     color:
       "text-blue-400 hover:text-blue-500 dark:text-blue-300 dark:hover:text-blue-200",
   },
@@ -76,11 +76,11 @@ const serviceTypes = [
 ];
 
 const budgetOptions = [
-  { value: "under-10k", label: "Under $10,000" },
+  { value: "under-5k", label: "Under $5,000" },
+  { value: "5k-10k", label: "$5,000 - $10,000" },
   { value: "10k-25k", label: "$10,000 - $25,000" },
   { value: "25k-50k", label: "$25,000 - $50,000" },
-  { value: "50k-100k", label: "$50,000 - $100,000" },
-  { value: "over-100k", label: "Over $100,000" },
+  { value: "over-50k", label: "Over $50,000" },
   { value: "discuss", label: "Let's discuss" },
 ];
 
